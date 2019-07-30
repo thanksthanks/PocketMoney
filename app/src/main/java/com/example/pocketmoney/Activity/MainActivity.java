@@ -35,8 +35,8 @@ public class MainActivity extends AppCompatActivity {
 
         //탭생성
         mTabLayout.addTab(mTabLayout.newTab().setText("메인화면"));
-        mTabLayout.addTab(mTabLayout.newTab().setText("용돈기록장"));
-        mTabLayout.addTab(mTabLayout.newTab().setText("용돈기록하기"));
+        mTabLayout.addTab(mTabLayout.newTab().setText("용돈 기록장"));
+        mTabLayout.addTab(mTabLayout.newTab().setText("용돈 기록하기"));
         mTabLayout.addTab(mTabLayout.newTab().setText("게임하기"));
         mTabLayout.addTab(mTabLayout.newTab().setText("회원정보"));
         mTabLayout.setTabGravity(TabLayout.GRAVITY_FILL);

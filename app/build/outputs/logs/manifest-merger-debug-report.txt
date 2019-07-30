@@ -78,10 +78,14 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\ju
 		ADDED from C:\Users\jungs\AndroidStudioProjects\PocketMoney\app\src\main\AndroidManifest.xml:6:9-35
 	android:theme
 		ADDED from C:\Users\jungs\AndroidStudioProjects\PocketMoney\app\src\main\AndroidManifest.xml:11:9-40
-activity#com.example.pocketmoney.Activity.LoginActivity
-ADDED from C:\Users\jungs\AndroidStudioProjects\PocketMoney\app\src\main\AndroidManifest.xml:12:9-13:20
+activity#com.example.pocketmoney.Activity.WriteActivity
+ADDED from C:\Users\jungs\AndroidStudioProjects\PocketMoney\app\src\main\AndroidManifest.xml:12:9-69
 	android:name
 		ADDED from C:\Users\jungs\AndroidStudioProjects\PocketMoney\app\src\main\AndroidManifest.xml:12:19-57
+activity#com.example.pocketmoney.Activity.LoginActivity
+ADDED from C:\Users\jungs\AndroidStudioProjects\PocketMoney\app\src\main\AndroidManifest.xml:13:9-69
+	android:name
+		ADDED from C:\Users\jungs\AndroidStudioProjects\PocketMoney\app\src\main\AndroidManifest.xml:13:19-57
 activity#com.example.pocketmoney.Activity.MainActivity
 ADDED from C:\Users\jungs\AndroidStudioProjects\PocketMoney\app\src\main\AndroidManifest.xml:14:9-20:20
 	android:name

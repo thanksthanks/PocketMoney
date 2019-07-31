@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\jungs\\AndroidStudioProjects\\PocketMoney\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v17\\values-v17.xml",
+            "outputFile": "C:\\Users\\MULTI_05\\PocketMoney\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v17\\values-v17.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\jungs\\.gradle\\caches\\transforms-2\\files-2.1\\817f526dbfb51f6eaf4d1c2a4eefb256\\res\\values-v17\\values-v17.xml",
+                    "source": "C:\\Users\\MULTI_05\\.gradle\\caches\\transforms-2\\files-2.1\\716f8cfc56c398dfd7a692440c7f821b\\res\\values-v17\\values-v17.xml",
                     "from": {
                         "startLines": "2,5,9,12,15,18,22,25,29,33,37,40,43,46,50,53,57",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

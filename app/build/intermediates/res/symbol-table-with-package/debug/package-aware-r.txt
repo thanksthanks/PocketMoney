@@ -25,6 +25,7 @@ animator mtrl_fab_hide_motion_spec
 animator mtrl_fab_show_motion_spec
 animator mtrl_fab_transformation_sheet_collapse_spec
 animator mtrl_fab_transformation_sheet_expand_spec
+array autosize_text_sizes
 array 수입
 array 지출
 attr actionBarDivider
@@ -1012,6 +1013,8 @@ drawable ic_launcher_foreground
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable map
+drawable money_box
 drawable mtrl_snackbar_background
 drawable mtrl_tabs_default_indicator
 drawable navigation_empty_icon
@@ -1080,6 +1083,7 @@ id center_horizontal
 id center_vertical
 id chains
 id checkbox
+id child_fragment_container
 id chronometer
 id clip_horizontal
 id clip_vertical
@@ -1225,12 +1229,14 @@ id text2
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
-id textView
 id textView1
 id textView2
 id textView3
 id textView4
+id textView6
+id textView7
 id textView8
+id textView9
 id text_input_password_toggle
 id textinput_counter
 id textinput_error
@@ -1249,6 +1255,7 @@ id transition_scene_layoutid_cache
 id transition_transform
 id txtDate
 id txtMoney
+id txtName
 id txtSource
 id uniform
 id unlabeled
@@ -1325,7 +1332,9 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_password_icon
 layout fragment_game
+layout fragment_game_play
 layout fragment_home
+layout fragment_mission
 layout fragment_plan
 layout fragment_user
 layout fragment_write

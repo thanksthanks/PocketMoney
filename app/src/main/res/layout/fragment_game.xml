@@ -18,11 +18,13 @@
             android:gravity="center">
 
             <Button
+                android:id="@+id/Expain"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="게임방법"/>
 
             <Button
+                android:id="@+id/Start"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="게임시작"/>

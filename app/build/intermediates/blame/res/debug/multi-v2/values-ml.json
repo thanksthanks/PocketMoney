@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\MULTI_05\\PocketMoney\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ml\\values-ml.xml",
+            "outputFile": "C:\\Users\\MULTI_03\\StudioProjects\\PocketMoney\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ml\\values-ml.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\MULTI_05\\.gradle\\caches\\transforms-2\\files-2.1\\716f8cfc56c398dfd7a692440c7f821b\\res\\values-ml\\values-ml.xml",
+                    "source": "C:\\Users\\MULTI_03\\.gradle\\caches\\transforms-2\\files-2.1\\f4f865914555991ef2b956c18e224a17\\res\\values-ml\\values-ml.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\MULTI_05\\.gradle\\caches\\transforms-2\\files-2.1\\2dba0d86a21ab320ec4fe9ce43a18c6a\\res\\values-ml\\values-ml.xml",
+                    "source": "C:\\Users\\MULTI_03\\.gradle\\caches\\transforms-2\\files-2.1\\52fa9734f3262ef9892ce581c33f719b\\res\\values-ml\\values-ml.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

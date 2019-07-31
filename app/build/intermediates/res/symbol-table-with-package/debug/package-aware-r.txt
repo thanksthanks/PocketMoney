@@ -25,6 +25,7 @@ animator mtrl_fab_hide_motion_spec
 animator mtrl_fab_show_motion_spec
 animator mtrl_fab_transformation_sheet_collapse_spec
 animator mtrl_fab_transformation_sheet_expand_spec
+array autosize_text_sizes
 array 수입
 array 지출
 attr actionBarDivider
@@ -1012,6 +1013,7 @@ drawable ic_launcher_foreground
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable map
 drawable mtrl_snackbar_background
 drawable mtrl_tabs_default_indicator
 drawable navigation_empty_icon
@@ -1031,10 +1033,12 @@ drawable tooltip_frame_dark
 drawable tooltip_frame_light
 id ALT
 id CTRL
+id Expain
 id FUNCTION
 id META
 id SHIFT
 id SYM
+id Start
 id action0
 id action_bar
 id action_bar_activity_content
@@ -1080,6 +1084,7 @@ id center_horizontal
 id center_vertical
 id chains
 id checkbox
+id child_fragment_container
 id chronometer
 id clip_horizontal
 id clip_vertical
@@ -1225,12 +1230,14 @@ id text2
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
-id textView
 id textView1
 id textView2
 id textView3
 id textView4
+id textView6
+id textView7
 id textView8
+id textView9
 id text_input_password_toggle
 id textinput_counter
 id textinput_error
@@ -1249,6 +1256,7 @@ id transition_scene_layoutid_cache
 id transition_transform
 id txtDate
 id txtMoney
+id txtName
 id txtSource
 id uniform
 id unlabeled
@@ -1307,6 +1315,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_game_play
 layout activity_login
 layout activity_main
 layout activity_write
@@ -1324,6 +1333,12 @@ layout design_navigation_item_subheader
 layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_password_icon
+layout fragment_explain_donation
+layout fragment_explain_insurance
+layout fragment_explain_invest
+layout fragment_explain_saving
+layout fragment_explain_spend
+layout fragment_explain_state
 layout fragment_game
 layout fragment_home
 layout fragment_plan

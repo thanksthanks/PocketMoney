@@ -18,6 +18,18 @@ public class MoneyBean {
         } else if(this.intSouce == 2) {
             this.source ="기타";
         }
+        }else if(type==0){
+            if(this.intSouce == 0 ) {
+                this.source = "식비";
+            } else if(this.intSouce == 1) {
+                this.source = "교통비";
+            } else if(this.intSouce == 2) {
+                this.source ="문화비";
+            }else if(this.intSouce == 3) {
+                this.source ="저금";
+            }else if(this.intSouce == 4) {
+                this.source ="기타";
+            }
         }
 
     }

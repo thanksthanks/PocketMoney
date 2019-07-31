@@ -1,22 +1,18 @@
 package com.example.pocketmoney.Activity;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.Spinner;
-import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.pocketmoney.Bean.MemberBean;
 import com.example.pocketmoney.Bean.MoneyBean;
 import com.example.pocketmoney.Database.FileDB;
 import com.example.pocketmoney.R;
-
-import java.text.SimpleDateFormat;
-import java.util.Date;
 
 public class WriteActivity extends AppCompatActivity {
 

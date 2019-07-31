@@ -1,36 +1,27 @@
 package com.example.pocketmoney.Fragment;
 
 import android.content.Context;
-import android.content.DialogInterface;
 import android.content.Intent;
-import android.graphics.Typeface;
-import android.net.Uri;
+import android.graphics.Color;
 import android.os.Bundle;
-
-import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
-import androidx.fragment.app.Fragment;
-import androidx.viewpager.widget.ViewPager;
-
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
-import android.widget.Button;
-import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
-import android.widget.Toast;
 
-import com.example.pocketmoney.Activity.LoginActivity;
-import com.example.pocketmoney.Activity.MainActivity;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.fragment.app.Fragment;
+
+import com.example.pocketmoney.Activity.SpendActivity;
 import com.example.pocketmoney.Activity.WriteActivity;
 import com.example.pocketmoney.Bean.MemberBean;
 import com.example.pocketmoney.Bean.MoneyBean;
 import com.example.pocketmoney.Database.FileDB;
 import com.example.pocketmoney.R;
 
-import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -74,10 +65,12 @@ public class WriteFragment extends Fragment {
         public void onClick(View view) {
             switch (view.getId()){
                 case R.id.btnIncome:
-                    Intent i = new Intent(getContext(), WriteActivity.class);
-                    startActivity(i);
+                    Intent intent = new Intent(getContext(), WriteActivity.class);
+                    startActivity(intent);
                     break;
                 case R.id.btnSpend:
+                    Intent intent2 = new Intent(getContext(), SpendActivity.class);
+                    startActivity(intent2);
                     break;
 
             }
@@ -127,10 +120,13 @@ public class WriteFragment extends Fragment {
             txtSource.setText(money.source);
             txtMoney.setText(money.money);
 
+            //txtMoney.setBackgroundColor(Color.parseColor("#0000FF"));
+            if (money.type == 0) {
+                txtMoney.setTextColor(Color.parseColor("#0000FF"));
+            } else if (money.type == 1) {
+                txtMoney.setTextColor(Color.parseColor("#FF0000"));
+            }
 
-/*            Typeface typeface = Typeface.createFromAsset(getResources().getAssets(),"godo.ttf");
-            txtMoney.setTypeface(typeface);
-            txtDate.setTypeface(typeface);*/
 
             return view; // 완성된 UI 리턴
         }

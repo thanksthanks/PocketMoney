@@ -25,6 +25,8 @@ animator mtrl_fab_hide_motion_spec
 animator mtrl_fab_show_motion_spec
 animator mtrl_fab_transformation_sheet_collapse_spec
 animator mtrl_fab_transformation_sheet_expand_spec
+array 수입
+array 지출
 attr actionBarDivider
 attr actionBarItemBackground
 attr actionBarPopupTheme
@@ -1063,9 +1065,14 @@ id barrier
 id beginning
 id blocking
 id bottom
+id btnCancel
+id btnIncome
+id btnSave
+id btnSpend
 id button
 id button2
 id button3
+id button4
 id buttonPanel
 id cancel_action
 id center
@@ -1083,6 +1090,7 @@ id contentPanel
 id coordinator
 id custom
 id customPanel
+id datePickerIncome
 id decor_content_parent
 id default_activity_button
 id design_bottom_sheet
@@ -1094,6 +1102,7 @@ id dimensions
 id direct
 id disableHome
 id edit_query
+id edtMoney
 id end
 id end_padder
 id enterAlways
@@ -1117,6 +1126,8 @@ id icon
 id icon_group
 id ifRoom
 id image
+id imageView
+id imageView2
 id info
 id invisible
 id italic
@@ -1127,6 +1138,7 @@ id left
 id line1
 id line3
 id listMode
+id listMoney
 id list_item
 id masked
 id media_actions
@@ -1154,6 +1166,8 @@ id pin
 id progress_circular
 id progress_horizontal
 id radio
+id radioButton
+id radioButton2
 id right
 id right_icon
 id right_side
@@ -1188,6 +1202,7 @@ id snackbar_text
 id snap
 id snapMargins
 id spacer
+id spinnerIncome
 id split_action_bar
 id spread
 id spread_inside
@@ -1210,6 +1225,12 @@ id text2
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
+id textView
+id textView1
+id textView2
+id textView3
+id textView4
+id textView8
 id text_input_password_toggle
 id textinput_counter
 id textinput_error
@@ -1226,6 +1247,9 @@ id transition_layout_save
 id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
+id txtDate
+id txtMoney
+id txtSource
 id uniform
 id unlabeled
 id up
@@ -1285,6 +1309,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_login
 layout activity_main
+layout activity_write
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
 layout design_layout_snackbar
@@ -1325,6 +1350,7 @@ layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
+layout view_money
 mipmap ic_launcher
 mipmap ic_launcher_round
 string abc_action_bar_home_description

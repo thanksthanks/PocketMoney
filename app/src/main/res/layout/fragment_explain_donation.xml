@@ -28,7 +28,7 @@
                 android:text="기부에 대한 내 생각을 적어주세요!"
                 android:gravity="center"/>
 
-            
+
         </LinearLayout>
 
         <LinearLayout

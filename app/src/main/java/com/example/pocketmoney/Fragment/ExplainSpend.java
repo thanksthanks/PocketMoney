@@ -20,4 +20,5 @@ public class ExplainSpend extends Fragment {
 
         return view;
     }
+
 }

@@ -20,4 +20,5 @@ public class ExplainInvest extends Fragment {
 
         return view;
     }
+
 }

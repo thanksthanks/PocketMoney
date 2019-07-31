@@ -20,4 +20,5 @@ public class ExplainDonation extends Fragment {
 
         return view;
     }
+
 }

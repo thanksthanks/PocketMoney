@@ -32,7 +32,7 @@ public class SpendActivity extends AppCompatActivity {
 
         edtMoney=findViewById(R.id.edtMoney);
         datePickerSpend=findViewById(R.id.datePickerSpend);
-        spinnerSpend=findViewById(R.id.spinnerIncome);
+        spinnerSpend=findViewById(R.id.spinnerSpend);
 
         mDate = datePickerSpend.getYear() + "." + (datePickerSpend.getMonth()+1) + "." + datePickerSpend.getDayOfMonth();
         datePickerSpend.init(datePickerSpend.getYear(), datePickerSpend.getMonth(), datePickerSpend.getDayOfMonth(), new DatePicker.OnDateChangedListener() {

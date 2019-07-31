@@ -3,7 +3,6 @@
     <string-array name="수입">
         <item>용돈</item>
         <item>아르바이트</item>
-        <item>적금</item>
         <item>기타</item>
     </string-array>
 </resources>

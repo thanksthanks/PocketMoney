@@ -55,18 +55,21 @@
         android:weightSum="10">
 
         <TextView
-            android:id="@+id/textView1"
+            android:id="@+id/textView3"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="2"
-            android:text="날짜" />
+            android:text="금액" />
 
-        <DatePicker
-            android:id="@+id/spinner2"
+        <EditText
+            android:id="@+id/edtMoney"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="8" />
+            android:layout_weight="8"
+            android:ems="10"
+            android:inputType="number" />
     </LinearLayout>
+
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -82,12 +85,14 @@
             android:layout_weight="2"/>
 
         <Spinner
-            android:id="@+id/spinner"
+            android:id="@+id/spinnerIncome"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="8"
             android:entries="@array/수입"/>
     </LinearLayout>
+
+
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -96,20 +101,17 @@
         android:weightSum="10">
 
         <TextView
-            android:id="@+id/textView3"
+            android:id="@+id/textView1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="2"
-            android:text="금액" />
+            android:text="날짜" />
 
-        <EditText
-            android:id="@+id/editText"
+        <DatePicker
+            android:id="@+id/datePickerIncome"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="8"
-            android:ems="10"
-            android:inputType="number" />
-
+            android:layout_weight="8" />
     </LinearLayout>
 
     <LinearLayout
@@ -118,14 +120,14 @@
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/button5"
+            android:id="@+id/btnCancel"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="취소" />
 
         <Button
-            android:id="@+id/button6"
+            android:id="@+id/btnSave"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"

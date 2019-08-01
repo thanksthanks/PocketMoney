@@ -21,8 +21,7 @@ public class GameMissionActivity extends AppCompatActivity {
 
         // 돌아가기 버튼
         Button back = findViewById(R.id.back);
-        back.setOnClickListener(new
-                                        View.OnClickListener() {
+        back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 finish();

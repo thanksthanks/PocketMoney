@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="수입">
+        <item>용돈</item>
+        <item>아르바이트</item>
+        <item>기타</item>
+    </string-array>
+
+    <string-array name="지출">
+        <item>식비</item>
+        <item>교통비</item>
+        <item>문화비</item>
+        <item>저금</item>
+        <item>기타</item>
+    </string-array>
+
+    <string-array name="월">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+
+    <string-array name="년도">
+        <item>2017</item>
+        <item>2018</item>
+        <item>2019</item>
+        <item>2020</item>
+        <item>2021</item>
+    </string-array>
+</resources>

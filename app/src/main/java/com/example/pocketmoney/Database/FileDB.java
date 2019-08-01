@@ -2,10 +2,10 @@ package com.example.pocketmoney.Database;
 
 import android.content.Context;
 import android.content.SharedPreferences;
-import android.text.TextUtils;
 
 import com.example.pocketmoney.Bean.MemberBean;
 import com.example.pocketmoney.Bean.MoneyBean;
+import com.example.pocketmoney.Bean.PlanBean;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 
@@ -34,7 +34,7 @@ public class FileDB {
     }
 
 
-    //용돈 기록을 추가하는 메서드
+    //용돈기록장을 추가하는 메서드
     public static void addMoney(Context context, MoneyBean moneyBean) {
         MemberBean findMember =  getMember(context);
         if(findMember==null) return;
@@ -53,7 +53,7 @@ public class FileDB {
     }
 
 
-    //메모 리스트를 획득
+    //용돈기록장 리스트를 획득
     public static List<MoneyBean> getMemberMoneyList(Context context) {
         MemberBean findMember =  getMember(context);
         if(findMember == null) return null;
@@ -64,8 +64,37 @@ public class FileDB {
         return findMember.moneyList;
     }
 
+    //용돈계획서를 추가하는 메서드
+    public static void addPlan(Context context, PlanBean planBean) {
+        MemberBean findMember =  getMember(context);
+        if(findMember==null) return;
 
-    //멤버 교체. 메모 수정했을때나
+        List<PlanBean> planList = findMember.planList;
+        if(planList==null){
+            planList = new ArrayList<>();
+        }
+        //고유번호 생성
+        MoneyBean.moneyId = System.currentTimeMillis();
+        planList.add(planBean);
+        findMember.planList=planList;
+
+        //저장
+        setMember(context,findMember);
+    }
+
+    //용돈계획서 리스트를 획득
+    public static List<PlanBean> getMemberPlanList(Context context) {
+        MemberBean findMember =  getMember(context);
+        if(findMember == null) return null;
+
+        if(findMember.planList == null)
+            findMember.planList= new ArrayList<>();
+
+        return findMember.planList;
+    }
+
+
+    //멤버 교체. 기록 수정했을때나
     public static void setMember(Context context, MemberBean memberBean){
         //새롭게 update 된 리스트를를 저장한다
         String jsonStr = mGson.toJson(memberBean);

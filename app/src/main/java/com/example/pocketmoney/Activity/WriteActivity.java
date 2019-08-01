@@ -86,8 +86,6 @@ public class WriteActivity extends AppCompatActivity {
         MemberBean member = FileDB.getMember(this);
         FileDB.addMoney(this, newMoney);
 
-
         finish();
-
     }
 }

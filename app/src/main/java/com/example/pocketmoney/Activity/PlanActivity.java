@@ -7,11 +7,13 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.pocketmoney.Bean.PlanBean;
+import com.example.pocketmoney.Database.FileDB;
 import com.example.pocketmoney.R;
 
 public class PlanActivity extends AppCompatActivity {
 
-    EditText edtIncome,edtSpend;
+    EditText edtIncome,edtSpend,edtContent;
     TextView txtSum;
 
     @Override
@@ -25,6 +27,7 @@ public class PlanActivity extends AppCompatActivity {
 
         edtIncome =findViewById(R.id.edtIncome);
         edtSpend =findViewById(R.id.edtSpend);
+        edtContent =findViewById(R.id.edtContent);
         txtSum=findViewById(R.id.txtSum);
 
     }
@@ -38,7 +41,7 @@ public class PlanActivity extends AppCompatActivity {
                     Integer.parseInt(edtSpend.getText().toString())));
                     break;
                 case R.id.btnSave:
-
+                    saveProc();
                     break;
                 case R.id.btnCancel:
                     finish();;
@@ -47,4 +50,20 @@ public class PlanActivity extends AppCompatActivity {
             }
         }
     };
+
+    //저장버튼 저장처리
+    private void saveProc(){
+
+        //파일에 저장처리
+        PlanBean newPlan = new PlanBean();
+        newPlan.income=edtIncome.getText().toString();
+        newPlan.spend=edtSpend.getText().toString();
+        newPlan.sum=txtSum.getText().toString();
+        newPlan.content=edtIncome.getText().toString();
+
+
+        FileDB.addPlan(this, newPlan);
+
+        finish();
+    }
 }

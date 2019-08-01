@@ -7,8 +7,10 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.BaseAdapter;
 import android.widget.ListView;
+import android.widget.Spinner;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -23,6 +25,7 @@ import com.example.pocketmoney.Database.FileDB;
 import com.example.pocketmoney.R;
 
 import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.List;
 
 
@@ -35,6 +38,9 @@ public class WriteFragment extends Fragment {
     ListAdapter adapter;
     MemberBean member;
 
+    Spinner yearSpinner,monthSpinner;
+    int intYear,intMonth;
+
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
@@ -45,6 +51,25 @@ public class WriteFragment extends Fragment {
 
         mListMoney = view.findViewById(R.id.listMoney);
         member= FileDB.getMember(getContext());
+
+        yearSpinner=view.findViewById(R.id.yearSpinner);
+        monthSpinner=view.findViewById(R.id.monthSpinner);
+
+        Calendar cal = Calendar.getInstance();
+        //int year = cal.get ( cal.YEAR );
+        int month = cal.get ( cal.MONTH );
+
+        monthSpinner.setSelection(2);
+        monthSpinner.setSelection(month);
+        monthSpinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
+                intMonth=i;
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> adapterView) { }
+        });
 
         return view;
     }

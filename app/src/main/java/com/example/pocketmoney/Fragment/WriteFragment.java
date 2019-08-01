@@ -7,9 +7,9 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.AdapterView;
 import android.widget.BaseAdapter;
 import android.widget.ListView;
+import android.widget.NumberPicker;
 import android.widget.Spinner;
 import android.widget.TextView;
 
@@ -53,13 +53,22 @@ public class WriteFragment extends Fragment {
         member= FileDB.getMember(getContext());
 
         yearSpinner=view.findViewById(R.id.yearSpinner);
-        monthSpinner=view.findViewById(R.id.monthSpinner);
+        //monthSpinner=view.findViewById(R.id.monthSpinner);
+
+        NumberPicker picker1 = view.findViewById(R.id.picker1);
+        picker1.setMinValue(1);
+        picker1.setMaxValue(12);
+        picker1.setWrapSelectorWheel(false);
+        //picker1.setDisplayedValues(new String[]{"1월", "2월", "3월", "4월", "5월", "6월", "7월", "8월", "9월", "10월", "11월", "12월"});
+
 
         Calendar cal = Calendar.getInstance();
         //int year = cal.get ( cal.YEAR );
         int month = cal.get ( cal.MONTH );
 
-        monthSpinner.setSelection(2);
+        yearSpinner.setSelection(2);
+        picker1.setValue(month);
+        /*monthSpinner.setSelection(2);
         monthSpinner.setSelection(month);
         monthSpinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
@@ -70,7 +79,7 @@ public class WriteFragment extends Fragment {
             @Override
             public void onNothingSelected(AdapterView<?> adapterView) { }
         });
-
+*/
         return view;
     }
 

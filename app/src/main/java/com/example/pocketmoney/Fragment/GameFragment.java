@@ -31,8 +31,8 @@ public class GameFragment extends Fragment {
         start.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getActivity(), GamePlayActivity.class);
-                startActivity(intent);
+                Intent i = new Intent(getActivity(), GamePlayActivity.class);
+                startActivity(i);
             }
         });
         return view;

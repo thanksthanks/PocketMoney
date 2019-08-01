@@ -41,8 +41,8 @@ public class GamePlayActivity extends AppCompatActivity {
         indicator.setViewPager(mViewPager);
     }
 
-    public static class mPagerAdapter extends FragmentPagerAdapter {
-        private static int NUM_ITEMS = 3;
+    class mPagerAdapter extends FragmentPagerAdapter {
+        int NUM_ITEMS = 6;
         public mPagerAdapter(FragmentManager fragmentManager) {
             super(fragmentManager);
         }

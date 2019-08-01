@@ -13,6 +13,8 @@ import com.example.pocketmoney.R;
 
 
 public class MissionInsurance2 extends Fragment {
+    MissionInsurance2() {}
+
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {

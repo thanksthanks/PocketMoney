@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Fragment.ExplainInsurance">
+    tools:context=".Fragment.GameExplain.ExplainInsurance">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -25,7 +25,7 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="8"
-                android:text="보험사에 가서 보험에 대한 설명을 듣고 오세요!"
+                android:text="@string/ExpainInsurance1"
                 android:gravity="center"/>
 
         </LinearLayout>
@@ -45,7 +45,7 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="8"
-                android:text="보힘이 필요할 때?"
+                android:text="@string/ExpainInsurance2"
                 android:gravity="center"/>
 
         </LinearLayout>

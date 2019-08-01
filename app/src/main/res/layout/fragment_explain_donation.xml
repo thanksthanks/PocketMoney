@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Fragment.ExplainDonation">
+    tools:context=".Fragment.GameExplain.ExplainDonation">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -25,7 +25,7 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="8"
-                android:text="기부에 대한 내 생각을 적어주세요!"
+                android:text="@string/ExpainDonation1"
                 android:gravity="center"/>
 
 
@@ -46,7 +46,7 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="8"
-                android:text="기부를 실천해볼까요?"
+                android:text="@string/ExpainDonation2"
                 android:gravity="center"/>
 
         </LinearLayout>

@@ -25,6 +25,7 @@ animator mtrl_fab_hide_motion_spec
 animator mtrl_fab_show_motion_spec
 animator mtrl_fab_transformation_sheet_collapse_spec
 animator mtrl_fab_transformation_sheet_expand_spec
+animator scale_with_alpha
 array autosize_text_sizes
 array 수입
 array 지출
@@ -150,6 +151,15 @@ attr chipStartPadding
 attr chipStrokeColor
 attr chipStrokeWidth
 attr chipStyle
+attr ci_animator
+attr ci_animator_reverse
+attr ci_drawable
+attr ci_drawable_unselected
+attr ci_gravity
+attr ci_height
+attr ci_margin
+attr ci_orientation
+attr ci_width
 attr closeIcon
 attr closeIconEnabled
 attr closeIconEndPadding
@@ -1002,12 +1012,14 @@ drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable avd_hide_password
 drawable avd_show_password
+drawable black_radius
 drawable design_bottom_navigation_item_background
 drawable design_fab_background
 drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable ic_account_circle_black_24dp
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable ic_mtrl_chip_checked_black
@@ -1032,12 +1044,15 @@ drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+drawable white_radius
 id ALT
 id CTRL
+id Expain
 id FUNCTION
 id META
 id SHIFT
 id SYM
+id Start
 id action0
 id action_bar
 id action_bar_activity_content
@@ -1068,14 +1083,17 @@ id barrier
 id beginning
 id blocking
 id bottom
+id btnCalclulate
 id btnCancel
 id btnIncome
+id btnPlan
 id btnSave
 id btnSpend
 id button
 id button2
 id button3
 id button4
+id button5
 id buttonPanel
 id cancel_action
 id center
@@ -1083,7 +1101,6 @@ id center_horizontal
 id center_vertical
 id chains
 id checkbox
-id child_fragment_container
 id chronometer
 id clip_horizontal
 id clip_vertical
@@ -1095,6 +1112,7 @@ id coordinator
 id custom
 id customPanel
 id datePickerIncome
+id datePickerSpend
 id decor_content_parent
 id default_activity_button
 id design_bottom_sheet
@@ -1106,7 +1124,9 @@ id dimensions
 id direct
 id disableHome
 id edit_query
+id edtIncome
 id edtMoney
+id edtSpend
 id end
 id end_padder
 id enterAlways
@@ -1126,12 +1146,14 @@ id group_divider
 id groups
 id home
 id homeAsUp
+id horizontal
 id icon
 id icon_group
 id ifRoom
 id image
 id imageView
 id imageView2
+id indicator
 id info
 id invisible
 id italic
@@ -1207,6 +1229,7 @@ id snap
 id snapMargins
 id spacer
 id spinnerIncome
+id spinnerSpend
 id split_action_bar
 id spread
 id spread_inside
@@ -1229,10 +1252,16 @@ id text2
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
+id textView
 id textView1
+id textView10
+id textView11
+id textView12
+id textView13
 id textView2
 id textView3
 id textView4
+id textView5
 id textView6
 id textView7
 id textView8
@@ -1257,10 +1286,12 @@ id txtDate
 id txtMoney
 id txtName
 id txtSource
+id txtSum
 id uniform
 id unlabeled
 id up
 id useLogo
+id vertical
 id viewPager
 id view_offset_helper
 id visible
@@ -1314,8 +1345,12 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_game_mission
+layout activity_game_play
 layout activity_login
 layout activity_main
+layout activity_plan
+layout activity_spend
 layout activity_write
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -1331,10 +1366,15 @@ layout design_navigation_item_subheader
 layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_password_icon
+layout fragment_explain_donation
+layout fragment_explain_insurance
+layout fragment_explain_invest
+layout fragment_explain_saving
+layout fragment_explain_spending
+layout fragment_explain_state
 layout fragment_game
-layout fragment_game_play
 layout fragment_home
-layout fragment_mission
+layout fragment_mission_invest2
 layout fragment_plan
 layout fragment_user
 layout fragment_write
@@ -1362,6 +1402,8 @@ layout support_simple_spinner_dropdown_item
 layout view_money
 mipmap ic_launcher
 mipmap ic_launcher_round
+string MissionInvest1
+string MissionInvest2
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description
@@ -1944,6 +1986,7 @@ styleable ButtonBarLayout allowStacking
 styleable CardView android_minWidth android_minHeight cardBackgroundColor cardCornerRadius cardElevation cardMaxElevation cardPreventCornerOverlap cardUseCompatPadding contentPadding contentPaddingBottom contentPaddingLeft contentPaddingRight contentPaddingTop
 styleable Chip android_textAppearance android_ellipsize android_maxWidth android_text android_checkable checkedIcon checkedIconEnabled checkedIconVisible chipBackgroundColor chipCornerRadius chipEndPadding chipIcon chipIconEnabled chipIconSize chipIconTint chipIconVisible chipMinHeight chipStartPadding chipStrokeColor chipStrokeWidth closeIcon closeIconEnabled closeIconEndPadding closeIconSize closeIconStartPadding closeIconTint closeIconVisible hideMotionSpec iconEndPadding iconStartPadding rippleColor showMotionSpec textEndPadding textStartPadding
 styleable ChipGroup checkedChip chipSpacing chipSpacingHorizontal chipSpacingVertical singleLine singleSelection
+styleable CircleIndicator ci_animator ci_animator_reverse ci_drawable ci_drawable_unselected ci_gravity ci_height ci_margin ci_orientation ci_width
 styleable CollapsingToolbarLayout collapsedTitleGravity collapsedTitleTextAppearance contentScrim expandedTitleGravity expandedTitleMargin expandedTitleMarginBottom expandedTitleMarginEnd expandedTitleMarginStart expandedTitleMarginTop expandedTitleTextAppearance scrimAnimationDuration scrimVisibleHeightTrigger statusBarScrim title titleEnabled toolbarId
 styleable CollapsingToolbarLayout_Layout layout_collapseMode layout_collapseParallaxMultiplier
 styleable ColorStateListItem android_color android_alpha alpha

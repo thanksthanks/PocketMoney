@@ -80,7 +80,6 @@ public class MainActivity extends AppCompatActivity {
                     return new GameFragment();
                 case 4 :
                     return new UserFragment();
-
             }
             return null;
         }

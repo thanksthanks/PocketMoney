@@ -19,13 +19,13 @@
 
     <!-- Mission -->
     <string name="MissionInvest1">회사를 운영하는데 필요한 돈을 주고 이익의 일부를 받거나, 회사나 기관에 돈을 빌려주거나, 금융투자 전문가들이 여러 사람의 돈을 모아서 다양한 대상 및 지역에 투자하는 것을 투자라 한단다!</string>
-    <string name="MissionInvest2">투자하겠니? 가입비는 30골드란다!</string>
+    <string name="MissionInvest2">투자하겠니? 가입비는 30코인이란다!</string>
     <string name="MissionDonation2">얼마를 기부할거니?</string>
     <string name="MissionSpending2_1">좋은 물건이 들어왔어! 구경해볼래?</string>
     <string name="MissionSpending2_2">으하하핫! 어떠니, 구매하겠니?</string>
     <string name="MissionSpending2_3">구매하고 싶은 카드를 하단의 칸에 옮기세요.(최대 2개)</string>
     <string name="MissionInsurance1">사람은 누구나 예상치 못한 사고를 당할 수 있어. 계단에서 넘어지거나 운동을 즐기다 다칠 수도 있지. 이렇게 예상하지 못한 위험에 대비해 여러 사람들이 서로 돈을 함께 모아 자금을 마련하고 사고를 당한 사람들을 도와주는 금융제도를 보험이라고 해! 즉, 한 사람은 만인을 위해, 만인은 할 사람을 위해!</string>
-    <string name="MissionInsurance2">보험을 가입하겠니? 가입비는 30골드란다!</string>
+    <string name="MissionInsurance2">보험을 가입하겠니? 가입비는 30코인이란다!</string>
     <string name="MissionSaving1">티끌모아 태산! 많이 들어본 말이지? 이렇게 저축을 해서 돈을 많이 모아두면, 예측할 수 없는 미래의 일에 대비할 수 있어! 뭐든지 한번에 큰 것을 얻을 수는 없단다. 꾸준한 저축은 자유로운 결정을 가능하개 해주지!</string>
     <string name="MissionSaving2">얼마를 저축할거니?</string>
 </resources>

@@ -6,28 +6,28 @@
     density="560dpi"
     format="10"
     plugin-version="3.4.2"
-    timestamp="1564637064805"
-    token="3384344017718355548"
+    timestamp="1564642656301"
+    token="4720714481082028981"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="335" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="31" />
+        duration="0" />
     <task
         name="verifier"
-        duration="11" />
+        duration="0" />
 
     <artifact
-        location="C:\Users\MULTI_04\StudioProjects\PocketMoney\app\build\intermediates\resources\instant-run\debug\resources-debug.apk"
+        location="C:\Users\Admin\StudioProjects\PocketMoney\app\build\intermediates\resources\instant-run\debug\resources-debug.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Users\MULTI_04\StudioProjects\PocketMoney\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+        location="C:\Users\Admin\StudioProjects\PocketMoney\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
         type="SPLIT" />
 
 </instant-run>

@@ -16,7 +16,8 @@
             android:layout_weight="0.5"
             android:text="(가지고 있는 코인)"
             android:layout_gravity="right"
-            android:gravity="center"/>
+            android:gravity="center"
+            android:autoSizeTextType="uniform"/>
 
         <ImageView
             android:layout_width="match_parent"
@@ -29,13 +30,16 @@
             android:layout_height="0dp"
             android:layout_weight="3"
             android:text="@string/MissionDonation2"
-            android:gravity="center"/>
+            android:gravity="center"
+            android:autoSizeTextType="uniform"
+            android:background="@drawable/tc06"/>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:padding="10dp">
 
             <ImageButton
                 android:layout_width="0dp"
@@ -51,7 +55,7 @@
                 android:layout_weight="2"
                 android:text="10 코인"
                 android:gravity="center"
-                />
+                android:autoSizeTextType="uniform"/>
 
             <ImageButton
                 android:layout_width="0dp"

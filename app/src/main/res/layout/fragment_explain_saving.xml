@@ -29,7 +29,8 @@
                 android:layout_height="match_parent"
                 android:layout_weight="8"
                 android:text="@string/ExpainSaving1"
-                android:gravity="center"/>
+                android:gravity="center"
+                android:autoSizeTextType="uniform"/>
 
         </LinearLayout>
 
@@ -53,7 +54,8 @@
         android:layout_height="match_parent"
         android:layout_weight="8"
         android:text="@string/ExpainSaving2"
-        android:gravity="center"/>
+        android:gravity="center"
+        android:autoSizeTextType="uniform"/>
     </LinearLayout>
     </LinearLayout>
 

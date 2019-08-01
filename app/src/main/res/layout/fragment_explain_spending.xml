@@ -29,7 +29,8 @@
                 android:layout_height="match_parent"
                 android:layout_weight="8"
                 android:text="@string/ExpainSpending1"
-                android:gravity="center"/>
+                android:gravity="center"
+                android:autoSizeTextType="uniform"/>
         </LinearLayout>
 
         <LinearLayout
@@ -51,7 +52,8 @@
                 android:layout_height="match_parent"
                 android:layout_weight="8"
                 android:text="@string/ExpainSpending2"
-                android:gravity="center"/>
+                android:gravity="center"
+                android:autoSizeTextType="uniform"/>
         </LinearLayout>
     </LinearLayout>
 

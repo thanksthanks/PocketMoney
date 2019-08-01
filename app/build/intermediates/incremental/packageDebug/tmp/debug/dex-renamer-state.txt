@@ -1,7 +1,7 @@
-#Thu Aug 01 12:48:28 KST 2019
-base.0=C\:\\Users\\MULTI_04\\StudioProjects\\PocketMoney\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out
+#Thu Aug 01 15:55:32 KST 2019
+base.0=C\:\\Users\\Admin\\StudioProjects\\PocketMoney\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out
 path.1=classes.dex
 renamed.1=classes2.dex
 path.0=classes.dex
 renamed.0=classes.dex
-base.1=C\:\\Users\\MULTI_04\\StudioProjects\\PocketMoney\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out
+base.1=C\:\\Users\\Admin\\StudioProjects\\PocketMoney\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out

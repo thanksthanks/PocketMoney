@@ -32,7 +32,8 @@ public class GameFragment extends Fragment {
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(getActivity(), GamePlayActivity.class);
-                startActivity(i);
+                // startActivity(i);
+                startActivityForResult(i,0);
             }
         });
         return view;

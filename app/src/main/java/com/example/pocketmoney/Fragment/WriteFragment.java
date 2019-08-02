@@ -8,6 +8,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
+import android.widget.Button;
 import android.widget.ListView;
 import android.widget.NumberPicker;
 import android.widget.Spinner;
@@ -116,6 +117,7 @@ public class WriteFragment extends Fragment {
         Context mContext;
         LayoutInflater inflater;
 
+
         public ListAdapter(List<MoneyBean> moneys, Context context) {
             this.moneys = moneys;
             this.mContext = context;
@@ -145,6 +147,7 @@ public class WriteFragment extends Fragment {
             TextView txtDate = view.findViewById(R.id.txtDate);
             TextView txtSource = view.findViewById(R.id.txtSource);
             TextView txtMoney = view.findViewById(R.id.txtMoney);
+            Button btnDel = view.findViewById(R.id.btnDel);
 
             // 원본에서 i번째 Item 획득
             final MoneyBean money = moneys.get(i);
@@ -161,6 +164,13 @@ public class WriteFragment extends Fragment {
                 txtMoney.setTextColor(Color.parseColor("#FF0000"));
             }
 
+            btnDel.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    FileDB.deleteMoney(getContext(),money.moneyId);
+                    onResume();
+                }
+            });
 
             return view; // 완성된 UI 리턴
         }

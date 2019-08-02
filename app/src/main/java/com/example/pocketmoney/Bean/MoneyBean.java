@@ -7,6 +7,7 @@ public class MoneyBean {
     public String source; //돈을 어디에 썼는지 or 받았는지
     public int intSouce;
     public String moneyDate;
+    public String moneyDateMonth;
     public String moneyDetail; //추가 기록
 
     public void intToSource(int type){

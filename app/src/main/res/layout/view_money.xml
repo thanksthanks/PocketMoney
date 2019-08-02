@@ -7,7 +7,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:weightSum="8">
+        android:weightSum="9">
 
         <TextView
             android:id="@+id/txtDate"
@@ -29,5 +29,14 @@
             android:layout_height="wrap_content"
             android:layout_weight="3"
             android:text="금액" />
+
+        <Button
+            android:id="@+id/btnDel"
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="삭제"
+            android:textSize="10dp" />
     </LinearLayout>
+
 </LinearLayout>

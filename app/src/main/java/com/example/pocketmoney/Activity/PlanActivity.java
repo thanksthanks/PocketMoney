@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -41,6 +42,11 @@ public class PlanActivity extends AppCompatActivity {
                     Integer.parseInt(edtSpend.getText().toString())));
                     break;
                 case R.id.btnSave:
+                    String s = txtSum.getText().toString();
+                    if(s.equals("")){
+                        Toast.makeText(getApplicationContext(), "계산하기 버튼을 눌러주세요!", Toast.LENGTH_LONG).show();
+                        break;
+                    }
                     saveProc();
                     break;
                 case R.id.btnCancel:

@@ -74,7 +74,7 @@ public class FileDB {
             planList = new ArrayList<>();
         }
         //고유번호 생성
-        MoneyBean.moneyId = System.currentTimeMillis();
+        PlanBean.planId= System.currentTimeMillis();
         planList.add(planBean);
         findMember.planList=planList;
 
@@ -102,5 +102,21 @@ public class FileDB {
         SharedPreferences.Editor editor = getSP(context).edit();
         editor.putString("member",jsonStr);
         editor.commit();
+    }
+
+    //기록 삭제
+    public static void deleteMoney(Context context,long moneyId){
+        MemberBean findMember =  getMember(context);
+        List<MoneyBean> moneyList = getMemberMoneyList(context);
+
+        for(int i=0;i<moneyList.size();i++) {
+            if(moneyList.get(i).moneyId==moneyId) {
+                moneyList.remove(i);
+                break;
+            }
+        }
+
+        findMember.moneyList = moneyList;
+        setMember(context,findMember);
     }
 }

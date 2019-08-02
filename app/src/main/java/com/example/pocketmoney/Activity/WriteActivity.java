@@ -19,7 +19,7 @@ public class WriteActivity extends AppCompatActivity {
     EditText edtMoney;
     DatePicker datePickerIncome;
     Spinner spinnerIncome;
-    String mDate;
+    String mDate,mMomth;
     int intSource;
 
     @Override
@@ -40,6 +40,7 @@ public class WriteActivity extends AppCompatActivity {
             public void onDateChanged(DatePicker view, int year, int monthOfYear, int dayOfMonth) {
                 String date = year + "." + (monthOfYear+1) + "." + dayOfMonth;
                 mDate=date;
+                mMomth=Integer.toString(monthOfYear+1);
             }
 
         });
@@ -65,7 +66,6 @@ public class WriteActivity extends AppCompatActivity {
                 case R.id.btnSave:
                     saveProc();
                     break;
-
             }
         }
     };
@@ -82,6 +82,7 @@ public class WriteActivity extends AppCompatActivity {
         newMoney.intSouce=intSource;
         newMoney.intToSource(1);
         newMoney.moneyDate=mDate;
+        newMoney.moneyDateMonth=mMomth;
 
         MemberBean member = FileDB.getMember(this);
         FileDB.addMoney(this, newMoney);

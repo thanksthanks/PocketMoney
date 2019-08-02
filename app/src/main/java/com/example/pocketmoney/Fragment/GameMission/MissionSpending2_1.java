@@ -13,13 +13,30 @@ import com.example.pocketmoney.R;
 
 
 public class MissionSpending2_1 extends Fragment {
-    MissionSpending2_1() {}
+    public MissionSpending2_1() {}
 
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_mission_spending2_1,container, false);
 
+        view.findViewById(R.id.yes).setOnClickListener(mBtnClick);
+        view.findViewById(R.id.no).setOnClickListener(mBtnClick);
+
         return view;
     }
+
+    private View.OnClickListener mBtnClick = new View.OnClickListener() {
+        @Override
+        public void onClick(View view) {
+            switch (view.getId()){
+                case R.id.yes:
+
+                    break;
+                case R.id.no:
+
+                    break;
+            }
+        }
+    };
 }

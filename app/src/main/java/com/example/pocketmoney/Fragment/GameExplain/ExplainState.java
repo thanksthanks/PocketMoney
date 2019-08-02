@@ -20,11 +20,6 @@ public class ExplainState extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_explain_state,container, false);
 
-        
-
-
-
-
         return view;
     }
 }

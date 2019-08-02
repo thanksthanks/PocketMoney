@@ -10,14 +10,6 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="0dp"
-            android:layout_weight="0.5"
-            android:text="(가지고 있는 코인)"
-            android:layout_gravity="right"
-            android:gravity="center"
-            android:autoSizeTextType="uniform"/>
 
         <ImageView
             android:layout_width="match_parent"

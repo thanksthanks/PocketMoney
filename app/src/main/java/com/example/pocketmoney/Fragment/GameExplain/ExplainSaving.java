@@ -26,25 +26,6 @@ public class ExplainSaving extends Fragment {
         ImageView saving1 = view.findViewById(R.id.saving1);
         ImageView saving2 = view.findViewById(R.id.saving2);
 
-        saving1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent i = new Intent(getActivity(), GameMissionActivity.class);
-                startActivity(i);
-            }
-        });
-
-        saving2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent i = new Intent(getActivity(), GameMissionActivity.class);
-                startActivity(i);
-            }
-        });
-
-
-
         return view;
     }
-
 }

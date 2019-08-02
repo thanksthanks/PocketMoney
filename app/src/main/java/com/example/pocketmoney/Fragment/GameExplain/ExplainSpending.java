@@ -26,23 +26,6 @@ public class ExplainSpending extends Fragment {
         ImageView spending1 = view.findViewById(R.id.spending1);
         ImageView spending2 = view.findViewById(R.id.spending2);
 
-        spending1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent i = new Intent(getActivity(), GameMissionActivity.class);
-                startActivity(i);
-            }
-        });
-
-        spending2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent i = new Intent(getActivity(), GameMissionActivity.class);
-                startActivity(i);
-            }
-        });
-
         return view;
     }
-
 }

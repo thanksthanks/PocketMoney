@@ -26,23 +26,6 @@ public class ExplainInvest extends Fragment {
         ImageView invest1 = view.findViewById(R.id.invest1);
         ImageView invest2 = view.findViewById(R.id.invest2);
 
-        invest1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent i = new Intent(getActivity(), GameMissionActivity.class);
-                startActivity(i);
-            }
-        });
-
-        invest2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent i = new Intent(getActivity(), GameMissionActivity.class);
-                startActivity(i);
-            }
-        });
-
         return view;
     }
-
 }

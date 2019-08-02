@@ -22,6 +22,7 @@
             android:gravity="bottom|right">
 
             <Button
+                android:id="@+id/playSaving"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="저축" />
@@ -35,6 +36,7 @@
             android:layout_gravity="bottom">
 
             <Button
+                android:id="@+id/playDonation"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="기부"
@@ -50,6 +52,7 @@
             android:gravity="bottom|right">
 
             <Button
+                android:id="@+id/playInsurance"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="보험"/>
@@ -64,6 +67,7 @@
             android:gravity="center_vertical|right">
 
             <Button
+                android:id="@+id/playSpending"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="소비"
@@ -80,6 +84,7 @@
             android:gravity="bottom|left">
 
             <Button
+                android:id="@+id/playInvest"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="투자"/>
@@ -120,11 +125,5 @@
             android:layout_height="0dp"
             android:layout_weight="1"/>
 
-        <com.google.android.material.tabs.TabLayout
-            android:id="@+id/tabLayout"
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1">
-        </com.google.android.material.tabs.TabLayout>
     </LinearLayout>
 </LinearLayout>

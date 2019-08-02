@@ -44,7 +44,7 @@ public class FileDB {
             moneyList = new ArrayList<>();
         }
         //고유번호 생성
-        MoneyBean.moneyId = System.currentTimeMillis();
+        moneyBean.moneyId = System.currentTimeMillis();
         moneyList.add(moneyBean);
         findMember.moneyList=moneyList;
 
@@ -74,7 +74,7 @@ public class FileDB {
             planList = new ArrayList<>();
         }
         //고유번호 생성
-        PlanBean.planId= System.currentTimeMillis();
+        planBean.planId= System.currentTimeMillis();
         planList.add(planBean);
         findMember.planList=planList;
 
@@ -115,8 +115,23 @@ public class FileDB {
                 break;
             }
         }
-
         findMember.moneyList = moneyList;
+        setMember(context,findMember);
+    }
+
+    //계획 삭제
+    public static void deletePlan(Context context,long planId){
+        MemberBean findMember =  getMember(context);
+        List<PlanBean> planList = findMember.planList;
+
+        for(int i=0;i<planList.size();i++) {
+            if(planList.get(i).planId==planId) {
+                planList.remove(i);
+                break;
+            }
+        }
+
+        findMember.planList = planList;
         setMember(context,findMember);
     }
 }

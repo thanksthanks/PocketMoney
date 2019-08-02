@@ -8,6 +8,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
+import android.widget.Button;
 import android.widget.ListView;
 import android.widget.TextView;
 
@@ -103,6 +104,7 @@ public class PlanFragment extends Fragment {
             TextView txtSum = view.findViewById(R.id.txtSum);
             TextView txtContent = view.findViewById(R.id.txtContent);
             TextView txtDate = view.findViewById(R.id.txtDate);
+            Button btnDel = view.findViewById(R.id.btnDel);
 
             // 원본에서 i번째 Item 획득
             final PlanBean plan = plans.get(i);
@@ -116,6 +118,14 @@ public class PlanFragment extends Fragment {
 
             txtIncome.setTextColor(Color.parseColor("#0000FF"));
             txtSpend.setTextColor(Color.parseColor("#FF0000"));
+
+            btnDel.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    FileDB.deletePlan(getContext(),plan.planId);
+                    onResume();
+                }
+            });
 
             return view; // 완성된 UI 리턴
         }

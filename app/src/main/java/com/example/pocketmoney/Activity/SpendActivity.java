@@ -9,7 +9,6 @@ import android.widget.Spinner;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.pocketmoney.Bean.MemberBean;
 import com.example.pocketmoney.Bean.MoneyBean;
 import com.example.pocketmoney.Database.FileDB;
 import com.example.pocketmoney.R;
@@ -83,7 +82,6 @@ public class SpendActivity extends AppCompatActivity {
         newMoney.intToSource(0);
         newMoney.moneyDate=mDate;
 
-        MemberBean member = FileDB.getMember(this);
         FileDB.addMoney(this, newMoney);
 
         finish();

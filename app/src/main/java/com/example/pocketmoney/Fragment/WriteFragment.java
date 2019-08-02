@@ -101,7 +101,7 @@ public class WriteFragment extends Fragment {
         mListMoney.setAdapter(adapter);
 
 
-        for(int i=0; i<moneys.size();i++){
+    /*    for(int i=0; i<moneys.size();i++){
             if(moneys.get(i).type==0)
                 sumSpend=+Integer.parseInt(moneys.get(i).money);
             else
@@ -110,7 +110,7 @@ public class WriteFragment extends Fragment {
         txtIncome.setText(Integer.toString(sumIncome));
         txtSpend.setText(Integer.toString(sumSpend));
         sum=sumIncome-sumSpend;
-        txtSum.setText(Integer.toString(sum));
+        txtSum.setText(Integer.toString(sum));*/
 
     }
 

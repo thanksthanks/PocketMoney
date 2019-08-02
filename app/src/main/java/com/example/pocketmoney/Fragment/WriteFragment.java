@@ -41,19 +41,26 @@ public class WriteFragment extends Fragment {
 
     Spinner yearSpinner,monthSpinner;
     int intYear,intMonth;
+    TextView txtIncome,txtSpend,txtSum;
+    int sumIncome=0,sumSpend=0,sum=0;
+
 
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_write,container, false);
+        View view = inflater.inflate(R.layout.fragment_write, container, false);
 
         view.findViewById(R.id.btnIncome).setOnClickListener(mBtnClick);
         view.findViewById(R.id.btnSpend).setOnClickListener(mBtnClick);
 
-        mListMoney = view.findViewById(R.id.listMoney);
-        member= FileDB.getMember(getContext());
+        txtIncome = view.findViewById(R.id.txtIncome);
+        txtSpend = view.findViewById(R.id.txtSpend);
+        txtSum = view.findViewById(R.id.txtSum);
 
-        yearSpinner=view.findViewById(R.id.yearSpinner);
+        mListMoney = view.findViewById(R.id.listMoney);
+        member = FileDB.getMember(getContext());
+
+        yearSpinner = view.findViewById(R.id.yearSpinner);
         //monthSpinner=view.findViewById(R.id.monthSpinner);
 
         NumberPicker picker1 = view.findViewById(R.id.picker1);
@@ -65,7 +72,7 @@ public class WriteFragment extends Fragment {
 
         Calendar cal = Calendar.getInstance();
         //int year = cal.get ( cal.YEAR );
-        int month = cal.get ( cal.MONTH );
+        int month = cal.get(cal.MONTH);
 
         yearSpinner.setSelection(2);
         picker1.setValue(month);
@@ -81,7 +88,7 @@ public class WriteFragment extends Fragment {
             public void onNothingSelected(AdapterView<?> adapterView) { }
         });
 */
-        return view;
+    return view;
     }
 
     @Override
@@ -92,6 +99,19 @@ public class WriteFragment extends Fragment {
 
         adapter = new ListAdapter(moneys,getContext());
         mListMoney.setAdapter(adapter);
+
+
+        for(int i=0; i<moneys.size();i++){
+            if(moneys.get(i).type==0)
+                sumSpend=+Integer.parseInt(moneys.get(i).money);
+            else
+                sumIncome=+Integer.parseInt(moneys.get(i).money);
+        }
+        txtIncome.setText(Integer.toString(sumIncome));
+        txtSpend.setText(Integer.toString(sumSpend));
+        sum=sumIncome-sumSpend;
+        txtSum.setText(Integer.toString(sum));
+
     }
 
 

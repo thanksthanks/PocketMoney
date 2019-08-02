@@ -9,7 +9,6 @@ import android.widget.Spinner;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.pocketmoney.Bean.MemberBean;
 import com.example.pocketmoney.Bean.MoneyBean;
 import com.example.pocketmoney.Database.FileDB;
 import com.example.pocketmoney.R;
@@ -84,7 +83,6 @@ public class WriteActivity extends AppCompatActivity {
         newMoney.moneyDate=mDate;
         newMoney.moneyDateMonth=mMomth;
 
-        MemberBean member = FileDB.getMember(this);
         FileDB.addMoney(this, newMoney);
 
         finish();

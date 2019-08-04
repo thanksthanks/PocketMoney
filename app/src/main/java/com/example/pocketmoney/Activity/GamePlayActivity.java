@@ -1,13 +1,15 @@
 package com.example.pocketmoney.Activity;
 
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.View;
+
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
 import androidx.viewpager.widget.ViewPager;
-
-import android.os.Bundle;
 
 import com.example.pocketmoney.Fragment.GameExplain.ExplainDonation;
 import com.example.pocketmoney.Fragment.GameExplain.ExplainInsurance;
@@ -34,12 +36,52 @@ public class GamePlayActivity extends AppCompatActivity {
         mTabLayout =findViewById(R.id.tabLayout);
         mViewPager=findViewById(R.id.viewPager);
 
+        findViewById(R.id.playInvest).setOnClickListener(mBtnClick);
+        findViewById(R.id.playSaving).setOnClickListener(mBtnClick);
+        findViewById(R.id.playDonation).setOnClickListener(mBtnClick);
+        findViewById(R.id.playInsurance).setOnClickListener(mBtnClick);
+        findViewById(R.id.playSpending).setOnClickListener(mBtnClick);
+
         adapterViewPager = new mPagerAdapter(getSupportFragmentManager());
         mViewPager.setAdapter(adapterViewPager);
 
         CircleIndicator indicator = (CircleIndicator) findViewById(R.id.indicator);
         indicator.setViewPager(mViewPager);
+
     }
+
+    private View.OnClickListener mBtnClick = new View.OnClickListener() {
+        @Override
+        public void onClick(View view) {
+            switch (view.getId()){
+                case R.id.playSaving:
+                    Intent saving = new Intent(GamePlayActivity.this, GameMissionActivity.class);
+                    saving.putExtra("town",0);
+                    startActivity(saving);
+                    break;
+                case R.id.playInsurance:
+                    Intent insurance = new Intent(GamePlayActivity.this, GameMissionActivity.class);
+                    insurance.putExtra("town", 1);
+                    startActivity(insurance);
+                    break;
+                case R.id.playDonation:
+                    Intent donation = new Intent(GamePlayActivity.this, GameMissionActivity.class);
+                    donation.putExtra("town", 2);
+                    startActivity(donation);
+                    break;
+                case R.id.playSpending:
+                    Intent spending = new Intent(GamePlayActivity.this, GameMissionActivity.class);
+                    spending.putExtra("town", 3);
+                    startActivity(spending);
+                    break;
+                case R.id.playInvest:
+                    Intent invest = new Intent(GamePlayActivity.this, GameMissionActivity.class);
+                    invest.putExtra("town", 4);
+                    startActivity(invest);
+                    break;
+            }
+        }
+    };
 
     class mPagerAdapter extends FragmentPagerAdapter {
         int NUM_ITEMS = 6;

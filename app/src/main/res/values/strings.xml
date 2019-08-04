@@ -20,7 +20,10 @@
     <!-- Mission -->
     <string name="MissionInvest1">회사를 운영하는데 필요한 돈을 주고 이익의 일부를 받거나, 회사나 기관에 돈을 빌려주거나, 금융투자 전문가들이 여러 사람의 돈을 모아서 다양한 대상 및 지역에 투자하는 것을 투자라 한단다!</string>
     <string name="MissionInvest2">투자하겠니? 가입비는 30코인이란다!</string>
+    <string name="MissionInvest3">얼마를 투자할거니?</string>
+    <string name="MissionDonation1">기부에 대한 내 생각을 적어주세요.</string>
     <string name="MissionDonation2">얼마를 기부할거니?</string>
+    <string name="MissionSpending1">소비에 대한 내 생각을 적어보세요.</string>
     <string name="MissionSpending2_1">좋은 물건이 들어왔어! 구경해볼래?</string>
     <string name="MissionSpending2_2">으하하핫! 어떠니, 구매하겠니?</string>
     <string name="MissionSpending2_3">구매하고 싶은 카드를 하단의 칸에 옮기세요.(최대 2개)</string>

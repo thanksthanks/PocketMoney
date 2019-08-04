@@ -13,7 +13,7 @@ import com.example.pocketmoney.R;
 
 
 public class MissionInsurance1 extends Fragment {
-    MissionInsurance1() {}
+    public MissionInsurance1() {}
 
     @Nullable
     @Override

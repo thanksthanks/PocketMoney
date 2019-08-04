@@ -13,7 +13,7 @@ import com.example.pocketmoney.R;
 
 
 public class MissionSpending1 extends Fragment {
-    MissionSpending1() {}
+    public MissionSpending1() {}
 
     @Nullable
     @Override

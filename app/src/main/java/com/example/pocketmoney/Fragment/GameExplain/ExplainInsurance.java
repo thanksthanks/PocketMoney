@@ -26,25 +26,6 @@ public class ExplainInsurance extends Fragment {
         ImageView insurance1 = view.findViewById(R.id.insurance1);
         ImageView insurance2 = view.findViewById(R.id.insurance2);
 
-        insurance1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent i = new Intent(getActivity(), GameMissionActivity.class);
-                startActivity(i);
-            }
-        });
-
-        insurance2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent i = new Intent(getActivity(), GameMissionActivity.class);
-                startActivity(i);
-            }
-        });
-
-
-
         return view;
     }
-
 }

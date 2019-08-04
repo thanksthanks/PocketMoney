@@ -28,25 +28,6 @@ public class ExplainDonation extends Fragment {
         ImageView donation1 = view.findViewById(R.id.donation1);
         ImageView donation2 = view.findViewById(R.id.donation2);
 
-        donation1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent i = new Intent(getActivity(), GameMissionActivity.class);
-                startActivity(i);
-            }
-        });
-
-        donation2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent i = new Intent(getActivity(), GameMissionActivity.class);
-                startActivity(i);
-            }
-        });
         return view;
     }
-
-
-
-
 }

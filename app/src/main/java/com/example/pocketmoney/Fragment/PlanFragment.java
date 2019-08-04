@@ -7,8 +7,10 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ArrayAdapter;
 import android.widget.BaseAdapter;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.TextView;
 
@@ -28,10 +30,14 @@ import java.util.List;
 
 public class PlanFragment extends Fragment {
 
-    public ListView mListPlan;
+    public ListView mListPlan, mListWish;
     List<PlanBean> plans = new ArrayList<>();
     ListAdapter adapter;
     MemberBean member;
+
+    ArrayList<String> wishs;
+    ArrayAdapter<String> adapterWish;
+    EditText edtWish;
 
     @Nullable
     @Override
@@ -41,6 +47,19 @@ public class PlanFragment extends Fragment {
         mListPlan = view.findViewById(R.id.listPlan);
 
         view.findViewById(R.id.btnPlan).setOnClickListener(mBtnClick);
+
+
+        view.findViewById(R.id.btnAdd).setOnClickListener(mBtnClick);
+        view.findViewById(R.id.btnDel).setOnClickListener(mBtnClick);
+
+        edtWish= view.findViewById(R.id.edtWish);
+        wishs = new ArrayList<String>();
+        wishs.add("Write your wishes");
+
+        adapterWish = new ArrayAdapter<String>(getContext(), android.R.layout.simple_list_item_single_choice , wishs);
+        mListWish = view.findViewById(R.id.listWish);
+        mListPlan.setAdapter(adapter);
+        mListWish.setChoiceMode(ListView.CHOICE_MODE_SINGLE);
 
 
         return view;
@@ -64,7 +83,25 @@ public class PlanFragment extends Fragment {
                     Intent intent = new Intent(getContext(), PlanActivity.class);
                     startActivity(intent);
                     break;
+                case R.id.btnAdd:
+                    String edt=edtWish.getText().toString();
+                    if(edt.length()!=0){
+                        wishs.add(edt);
+                        edtWish.setText("");
+                        adapterWish.notifyDataSetChanged();
+                    }
+                    break;
+                case R.id.btnDel:
+                    int pos;
+                    pos=mListWish.getCheckedItemPosition();
+                    if(pos!=ListView.INVALID_POSITION){
+                        wishs.remove(pos);
+                        mListWish.clearChoices();
+                        adapterWish.notifyDataSetChanged();
+                    }
+                    break;
             }
+
         }
     };
 

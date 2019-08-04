@@ -1,7 +1,7 @@
 package com.example.pocketmoney.Bean;
 
 public class MoneyBean {
-    public String money;
+    public int money;
     public long moneyId; //고유번호
     public int type; //0이면 지출, 1이면 수입
     public String source; //돈을 어디에 썼는지 or 받았는지

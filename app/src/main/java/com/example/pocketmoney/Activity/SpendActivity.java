@@ -1,11 +1,13 @@
 package com.example.pocketmoney.Activity;
 
 import android.os.Bundle;
+import android.text.TextUtils;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.Spinner;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -62,6 +64,10 @@ public class SpendActivity extends AppCompatActivity {
                     finish();
                     break;
                 case R.id.btnSave:
+                    if(TextUtils.equals(edtMoney.getText(),"")) {
+                        Toast.makeText(getApplicationContext(),"금액을 입력하세요",Toast.LENGTH_SHORT).show();
+                        break;
+                    }
                     saveProc();
                     break;
 
@@ -72,7 +78,7 @@ public class SpendActivity extends AppCompatActivity {
     //저장버튼 저장처리
     private void saveProc(){
 
-        String moneySum = edtMoney.getText().toString();
+        int moneySum = Integer.parseInt(edtMoney.getText().toString());
 
         //파일에 저장처리
         MoneyBean newMoney = new MoneyBean();

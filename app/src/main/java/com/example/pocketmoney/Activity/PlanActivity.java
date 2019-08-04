@@ -1,6 +1,7 @@
 package com.example.pocketmoney.Activity;
 
 import android.os.Bundle;
+import android.text.TextUtils;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -38,6 +39,10 @@ public class PlanActivity extends AppCompatActivity {
         public void onClick(View view) {
             switch (view.getId()){
                 case R.id.btnCalclulate:
+                    if(TextUtils.equals(edtIncome.getText(),"") | TextUtils.equals(edtSpend.getText(),"") ) {
+                        Toast.makeText(getApplicationContext(),"금액을 입력하세요",Toast.LENGTH_SHORT).show();
+                        break;
+                    }
                     txtSum.setText(Integer.toString(Integer.parseInt(edtIncome.getText().toString())-
                     Integer.parseInt(edtSpend.getText().toString())));
                     break;

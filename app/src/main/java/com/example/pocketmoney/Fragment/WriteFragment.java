@@ -42,7 +42,7 @@ public class WriteFragment extends Fragment {
     Spinner yearSpinner,monthSpinner;
     int intYear,intMonth;
     TextView txtIncome,txtSpend,txtSum;
-    int sumIncome=0,sumSpend=0,sum=0;
+
 
 
     @Nullable
@@ -58,7 +58,6 @@ public class WriteFragment extends Fragment {
         txtSum = view.findViewById(R.id.txtSum);
 
         mListMoney = view.findViewById(R.id.listMoney);
-        member = FileDB.getMember(getContext());
 
         yearSpinner = view.findViewById(R.id.yearSpinner);
         //monthSpinner=view.findViewById(R.id.monthSpinner);
@@ -95,23 +94,23 @@ public class WriteFragment extends Fragment {
     public void onResume() {
         super.onResume();
 
+        int sumIncome=0,sumSpend=0,sum=0;
+        member = FileDB.getMember(getContext());
         moneys = FileDB.getMemberMoneyList(getContext());
 
         adapter = new ListAdapter(moneys,getContext());
         mListMoney.setAdapter(adapter);
 
-
-    /*    for(int i=0; i<moneys.size();i++){
+        for(int i=0; i<moneys.size(); i++){
             if(moneys.get(i).type==0)
-                sumSpend=+Integer.parseInt(moneys.get(i).money);
-            else
-                sumIncome=+Integer.parseInt(moneys.get(i).money);
+                sumSpend=sumSpend+moneys.get(i).money;
+            else if (moneys.get(i).type==1)
+                sumIncome=sumIncome+moneys.get(i).money;
         }
         txtIncome.setText(Integer.toString(sumIncome));
         txtSpend.setText(Integer.toString(sumSpend));
         sum=sumIncome-sumSpend;
-        txtSum.setText(Integer.toString(sum));*/
-
+        txtSum.setText(Integer.toString(sum));
     }
 
 
@@ -175,7 +174,7 @@ public class WriteFragment extends Fragment {
             // 원본 데이터를 UI에 적용
             txtDate.setText(money.moneyDate);
             txtSource.setText(money.source);
-            txtMoney.setText(money.money);
+            txtMoney.setText(Integer.toString(money.money));
 
             //txtMoney.setBackgroundColor(Color.parseColor("#0000FF"));
             if (money.type == 0) {

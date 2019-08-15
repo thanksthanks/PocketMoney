@@ -22,30 +22,23 @@ public class MissionInvest3 extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_mission_invest3,container, false);
 
-        TextView InvestCoin = view.findViewById(R.id.investCoin);
-        view.findViewById(R.id.plus).setOnClickListener(mBtnClick);
-        view.findViewById(R.id.minus).setOnClickListener(mBtnClick);
-        if (coin < 10) {
-            coin = 10;
-        }
-        if (coin > 30) {
-            coin = 30;
-        }
+        final TextView InvestCoin = view.findViewById(R.id.investCoin);
         InvestCoin.setText(coin + "코인");
+
+        view.findViewById(R.id.plus).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                coin++;
+                InvestCoin.setText(coin + "코인");
+            }
+        });
+        view.findViewById(R.id.minus).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                coin--;
+                InvestCoin.setText(coin + "코인");
+            }
+        });
         return view;
     }
-
-    private View.OnClickListener mBtnClick = new View.OnClickListener() {
-        @Override
-        public void onClick(View view) {
-            switch (view.getId()){
-                case R.id.plus:
-                    coin += 1;
-                    break;
-                case R.id.minus:
-                    coin -= 1;
-                    break;
-            }
-        }
-    };
 }

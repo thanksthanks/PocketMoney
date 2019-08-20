@@ -21,7 +21,9 @@
         <ImageView
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:src="@drawable/satisfaction"
+            android:scaleType="fitCenter"/>
 
         <TextView
             android:layout_width="0dp"
@@ -34,7 +36,9 @@
         <ImageView
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:src="@drawable/agreement"
+            android:scaleType="fitCenter"/>
 
         <TextView
             android:layout_width="0dp"
@@ -56,7 +60,9 @@
         <ImageView
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:src="@drawable/moneybag"
+            android:scaleType="fitCenter"/>
 
         <TextView
             android:layout_width="0dp"
@@ -70,7 +76,9 @@
         <ImageView
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:src="@drawable/life_insurance"
+            android:scaleType="fitCenter"/>
 
         <TextView
             android:layout_width="0dp"

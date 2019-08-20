@@ -7,11 +7,8 @@ import android.widget.Button;
 import android.widget.FrameLayout;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
-import androidx.fragment.app.FragmentPagerAdapter;
 import androidx.fragment.app.FragmentTransaction;
-import androidx.viewpager.widget.ViewPager;
 
 import com.example.pocketmoney.Fragment.GameMission.MissionDonation1;
 import com.example.pocketmoney.Fragment.GameMission.MissionDonation2;
@@ -22,10 +19,10 @@ import com.example.pocketmoney.Fragment.GameMission.MissionInvest2;
 import com.example.pocketmoney.Fragment.GameMission.MissionInvest3;
 import com.example.pocketmoney.Fragment.GameMission.MissionSaving1;
 import com.example.pocketmoney.Fragment.GameMission.MissionSaving2;
-import com.example.pocketmoney.Fragment.GameMission.MissionSpending1;
-import com.example.pocketmoney.Fragment.GameMission.MissionSpending2_1;
-import com.example.pocketmoney.Fragment.GameMission.MissionSpending2_2;
-import com.example.pocketmoney.Fragment.GameMission.MissionSpending2_3;
+import com.example.pocketmoney.Fragment.GameMission.MissionSpending1_1;
+import com.example.pocketmoney.Fragment.GameMission.MissionSpending1_2;
+import com.example.pocketmoney.Fragment.GameMission.MissionSpending2;
+import com.example.pocketmoney.Fragment.GameMission.MissionSpending3;
 import com.example.pocketmoney.R;
 
 public class GameMissionActivity extends AppCompatActivity {
@@ -40,16 +37,16 @@ public class GameMissionActivity extends AppCompatActivity {
     private MissionDonation1 donation1;
     private MissionInsurance1 insurance1;
     private MissionSaving1 saving1;
-    private MissionSpending1 spending1;
+    private MissionSpending1_1 spending1_1;
 
     private MissionInvest2 invest2;
     private MissionInvest3 invest3;
     private MissionDonation2 donation2;
     private MissionInsurance2 insurance2;
     private MissionSaving2 saving2;
-    private MissionSpending2_1 spending2_1;
-    private MissionSpending2_2 spending2_2;
-    private MissionSpending2_3 spending2_3;
+    private MissionSpending1_2 spending1_2;
+    private MissionSpending2 spending2;
+    private MissionSpending3 spending3;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -65,16 +62,16 @@ public class GameMissionActivity extends AppCompatActivity {
         donation1 = new MissionDonation1();
         insurance1 = new MissionInsurance1();
         saving1 = new MissionSaving1();
-        spending1 = new MissionSpending1();
+        spending1_1 = new MissionSpending1_1();
 
         invest2 = new MissionInvest2();
         invest3 = new MissionInvest3();
         donation2 = new MissionDonation2();
         insurance2 = new MissionInsurance2();
         saving2 = new MissionSaving2();
-        spending2_1 = new MissionSpending2_1();
-        spending2_2 = new MissionSpending2_2();
-        spending2_3 = new MissionSpending2_3();
+        spending1_2 = new MissionSpending1_2();
+        spending2 = new MissionSpending2();
+        spending3 = new MissionSpending3();
 
         if (data == 0) { //저축 town
             getSupportFragmentManager().beginTransaction().replace(R.id.missionFragment, saving1).commit();
@@ -83,7 +80,7 @@ public class GameMissionActivity extends AppCompatActivity {
         } else if (data == 2) { // 기부 town
             getSupportFragmentManager().beginTransaction().replace(R.id.missionFragment, donation1).commit();
         } else if (data == 3) { // 소비 town
-            getSupportFragmentManager().beginTransaction().replace(R.id.missionFragment, spending1).commit();
+            getSupportFragmentManager().beginTransaction().replace(R.id.missionFragment, spending1_1).commit();
         } else if (data == 4) { // 투자 town
             getSupportFragmentManager().beginTransaction().replace(R.id.missionFragment, invest1).commit();
         }
@@ -116,11 +113,11 @@ public class GameMissionActivity extends AppCompatActivity {
         } else if ( i == 4 ) {
             getSupportFragmentManager().beginTransaction().replace(R.id.missionFragment, saving2).commit();
         } else if ( i == 5 ) {
-            getSupportFragmentManager().beginTransaction().replace(R.id.missionFragment, spending2_1).commit();
+            getSupportFragmentManager().beginTransaction().replace(R.id.missionFragment, spending1_2).commit();
         } else if ( i == 6 ) {
-            getSupportFragmentManager().beginTransaction().replace(R.id.missionFragment, spending2_2).commit();
+            getSupportFragmentManager().beginTransaction().replace(R.id.missionFragment, spending2).commit();
         } else if ( i == 7 ) {
-            getSupportFragmentManager().beginTransaction().replace(R.id.missionFragment, spending2_3).commit();
+            getSupportFragmentManager().beginTransaction().replace(R.id.missionFragment, spending3).commit();
         }
     }
 }

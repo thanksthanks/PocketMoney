@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
     abi="x86"
-    api-level="26"
+    api-level="24"
     build-mode="FULL"
     density="560dpi"
     format="10"
     plugin-version="3.4.2"
-    timestamp="1564642656301"
-    token="4720714481082028981"
+    timestamp="1566290455710"
+    token="-2794759471481202532"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
@@ -22,12 +22,5 @@
     <task
         name="verifier"
         duration="0" />
-
-    <artifact
-        location="C:\Users\Admin\StudioProjects\PocketMoney\app\build\intermediates\resources\instant-run\debug\resources-debug.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\Admin\StudioProjects\PocketMoney\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
-        type="SPLIT" />
 
 </instant-run>

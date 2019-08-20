@@ -19,6 +19,7 @@
         android:testOnly="true"
         android:theme="@style/AppTheme" >
         <activity android:name="com.example.pocketmoney.Activity.GameMissionActivity" />
+        <activity android:name="com.example.pocketmoney.Activity.GamePlayActivity" />
         <activity android:name="com.example.pocketmoney.Activity.PlanActivity" />
         <activity android:name="com.example.pocketmoney.Activity.SpendActivity" />
         <activity android:name="com.example.pocketmoney.Activity.WriteActivity" />

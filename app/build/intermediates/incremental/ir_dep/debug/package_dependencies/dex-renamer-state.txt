@@ -1,4 +1,4 @@
-#Thu Aug 01 15:55:40 KST 2019
-base.0=C\:\\Users\\Admin\\StudioProjects\\PocketMoney\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\10
+#Tue Aug 20 13:51:40 KST 2019
+base.0=C\:\\Users\\USER\\AndroidStudioProjects\\KJS\\PocketMoney\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\10
 path.0=classes.dex
 renamed.0=classes.dex

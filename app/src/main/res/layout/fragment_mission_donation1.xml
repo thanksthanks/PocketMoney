@@ -10,18 +10,36 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <EditText
+
+        <ImageView
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="9"
-            android:hint="@string/ExpainDonation1"
-            android:gravity="center"/>
+            android:layout_weight="2"
+            android:src="@drawable/ic_account_circle_black_24dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="5"
+            android:orientation="vertical"
+            android:background="@drawable/tc06">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="3"
+                android:text="@string/MissionDonation1"
+                android:gravity="center"
+                android:autoSizeTextType="uniform" />
+
+        </LinearLayout>
 
         <Button
+            android:id="@+id/ok"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
-            android:text="확인"
+            android:text="잘 들었어요."
             android:autoSizeTextType="uniform"/>
 
     </LinearLayout>

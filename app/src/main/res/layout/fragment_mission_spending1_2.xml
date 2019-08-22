@@ -29,7 +29,7 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="4"
-            android:src="@drawable/spendingcard1"
+            android:src="@drawable/cashspending1"
             android:scaleType="fitCenter"/>
 
         <LinearLayout

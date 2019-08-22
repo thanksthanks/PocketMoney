@@ -24,14 +24,14 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:src="@drawable/spendingcard1"
+                android:src="@drawable/cashspending1"
                 android:scaleType="fitCenter"/>
 
             <ImageView
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:src="@drawable/spendingcard2"
+                android:src="@drawable/cashspending2"
                 android:scaleType="fitCenter"/>
 
         </LinearLayout>

@@ -1036,6 +1036,7 @@ drawable eventcard7
 drawable eventcard8
 drawable eventcard9
 drawable gamebackground
+drawable good
 drawable goodjob
 drawable ic_account_circle_black_24dp
 drawable ic_add_circle_black_24dp
@@ -1209,6 +1210,7 @@ id fixed
 id forever
 id ghost_view
 id gone
+id good
 id group_divider
 id groups
 id home
@@ -1252,6 +1254,7 @@ id mtrl_internal_children_alpha_tag
 id multiply
 id navigation_header_container
 id never
+id next
 id no
 id none
 id normal
@@ -1285,6 +1288,7 @@ id save_non_transition_alpha
 id save_scale_type
 id saving1
 id saving2
+id savingCoin
 id screen
 id scroll
 id scrollIndicatorDown
@@ -1315,6 +1319,7 @@ id snapMargins
 id spacer
 id spending1
 id spending2
+id spendingcard
 id spinnerIncome
 id spinnerSpend
 id split_action_bar

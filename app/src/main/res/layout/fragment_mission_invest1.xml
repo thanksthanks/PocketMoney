@@ -6,6 +6,11 @@
     tools:context=".Fragment.GameMission.MissionInvest1"
     android:id="@+id/invest1">
 
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -41,11 +46,47 @@
                 android:layout_height="0dp"
                 android:layout_weight="0.5"
                 android:layout_gravity="right"
-                android:text="next>"
+                android:text="OK"
                 android:autoSizeTextType="uniform"/>
 
         </LinearLayout>
 
     </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:id="@+id/good"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="6"
+            android:src="@drawable/good"
+            android:scaleType="fitCenter"/>
+
+        <Button
+            android:id="@+id/next"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:text="투자를 해보자!\n바로가기"
+            android:autoSizeTextType="uniform"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+    </FrameLayout>
 
 </FrameLayout>

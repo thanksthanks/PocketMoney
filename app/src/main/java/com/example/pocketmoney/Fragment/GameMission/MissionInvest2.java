@@ -35,7 +35,7 @@ public class MissionInvest2 extends Fragment {
                     ((GameMissionActivity)getActivity()).ChangeFragment(1);
                     break;
                 case R.id.no:
-
+                    getActivity().finish();
                     break;
             }
         }

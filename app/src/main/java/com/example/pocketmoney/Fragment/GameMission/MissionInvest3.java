@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -16,11 +17,14 @@ import com.example.pocketmoney.R;
 public class MissionInvest3 extends Fragment {
     private int coin = 20;
     public MissionInvest3() {}
+    private ImageView good;
 
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_mission_invest3,container, false);
+        good = view.findViewById(R.id.good);
+        good.setVisibility(View.INVISIBLE);
 
         final TextView InvestCoin = view.findViewById(R.id.investCoin);
         InvestCoin.setText(coin + "코인");
@@ -29,6 +33,9 @@ public class MissionInvest3 extends Fragment {
             @Override
             public void onClick(View view) {
                 coin++;
+                if (coin >= 30) {
+                    coin = 30;
+                }
                 InvestCoin.setText(coin + "코인");
             }
         });
@@ -36,9 +43,21 @@ public class MissionInvest3 extends Fragment {
             @Override
             public void onClick(View view) {
                 coin--;
+                if (coin <= 1) {
+                    coin = 1;
+                }
                 InvestCoin.setText(coin + "코인");
+            }
+        });
+
+
+        view.findViewById(R.id.ok).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                good.setVisibility(View.VISIBLE);
             }
         });
         return view;
     }
+
 }

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\USER\\AndroidStudioProjects\\KJS\\PocketMoney\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
+            "outputFile": "/Users/KimJung/AndroidStudioProjects/PocketMoney/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\0e13df2ebc64027424670765c1b1ea01\\res\\values-land\\values-land.xml",
+                    "source": "/Users/KimJung/.gradle/caches/transforms-2/files-2.1/046bf15a8d1150ba8d8c0b95f0921b00/res/values-land/values-land.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\55154137b5bda4179ff4b90c237c3d15\\res\\values-land\\values-land.xml",
+                    "source": "/Users/KimJung/.gradle/caches/transforms-2/files-2.1/d8455dc40df9b912492959a6fdc67d1e/res/values-land/values-land.xml",
                     "from": {
                         "startLines": "2,3,4",
                         "startColumns": "4,4,4",

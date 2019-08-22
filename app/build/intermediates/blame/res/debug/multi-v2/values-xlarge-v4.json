@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\USER\\AndroidStudioProjects\\KJS\\PocketMoney\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-xlarge-v4\\values-xlarge-v4.xml",
+            "outputFile": "/Users/KimJung/AndroidStudioProjects/PocketMoney/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-xlarge-v4/values-xlarge-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-2\\files-2.1\\55154137b5bda4179ff4b90c237c3d15\\res\\values-xlarge-v4\\values-xlarge-v4.xml",
+                    "source": "/Users/KimJung/.gradle/caches/transforms-2/files-2.1/d8455dc40df9b912492959a6fdc67d1e/res/values-xlarge-v4/values-xlarge-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7",
                         "startColumns": "4,4,4,4,4,4",

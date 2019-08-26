@@ -30,27 +30,27 @@ public final class R {
     public static final class drawable {
         private drawable() {}
 
-        public static final int white_radius = 0x7f080083;
+        public static final int white_radius = 0x7f080086;
     }
     public static final class id {
         private id() {}
 
         public static final int bottom = 0x7f090026;
-        public static final int center = 0x7f090034;
-        public static final int center_horizontal = 0x7f090035;
-        public static final int center_vertical = 0x7f090036;
-        public static final int clip_horizontal = 0x7f09003a;
-        public static final int clip_vertical = 0x7f09003b;
-        public static final int end = 0x7f090055;
-        public static final int fill = 0x7f09005c;
-        public static final int fill_horizontal = 0x7f09005d;
-        public static final int fill_vertical = 0x7f09005e;
-        public static final int horizontal = 0x7f090068;
-        public static final int left = 0x7f09007a;
-        public static final int right = 0x7f09009c;
-        public static final int start = 0x7f0900cb;
-        public static final int top = 0x7f0900f0;
-        public static final int vertical = 0x7f090101;
+        public static final int center = 0x7f090036;
+        public static final int center_horizontal = 0x7f090037;
+        public static final int center_vertical = 0x7f090038;
+        public static final int clip_horizontal = 0x7f09003c;
+        public static final int clip_vertical = 0x7f09003d;
+        public static final int end = 0x7f090059;
+        public static final int fill = 0x7f090060;
+        public static final int fill_horizontal = 0x7f090061;
+        public static final int fill_vertical = 0x7f090062;
+        public static final int horizontal = 0x7f09006c;
+        public static final int left = 0x7f09007e;
+        public static final int right = 0x7f0900a1;
+        public static final int start = 0x7f0900d0;
+        public static final int top = 0x7f0900fd;
+        public static final int vertical = 0x7f090111;
     }
     public static final class styleable {
         private styleable() {}

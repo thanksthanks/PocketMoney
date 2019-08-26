@@ -16,11 +16,11 @@
         android:autoSizeTextType="uniform"/>
 
 
-    <androidx.viewpager.widget.ViewPager
-        android:id="@+id/viewPager"
+    <FrameLayout
+        android:id="@+id/missionFragment"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="9"/>
+        android:layout_weight="9"></FrameLayout>
 
     <Button
         android:id="@+id/back"

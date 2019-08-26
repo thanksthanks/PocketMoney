@@ -9,6 +9,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
+import com.example.pocketmoney.Activity.GameMissionActivity;
 import com.example.pocketmoney.R;
 
 
@@ -31,12 +32,13 @@ public class MissionInvest2 extends Fragment {
         public void onClick(View view) {
             switch (view.getId()){
                 case R.id.yes:
-
+                    ((GameMissionActivity)getActivity()).ChangeFragment(1);
                     break;
                 case R.id.no:
-
+                    getActivity().finish();
                     break;
             }
         }
     };
 }
+

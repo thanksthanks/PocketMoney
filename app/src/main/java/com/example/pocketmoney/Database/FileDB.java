@@ -93,6 +93,29 @@ public class FileDB {
         return findMember.planList;
     }
 
+    //위시리스트를 추가하는 메서드
+    public static void setWishList(Context context, ArrayList<String> wishes) {
+        MemberBean findMember =  getMember(context);
+        if(findMember==null) return;
+
+        findMember.wishList=wishes;
+
+        //저장
+        setMember(context,findMember);
+    }
+    //위시리스트  획득
+    public static ArrayList<String> getMemberWishList(Context context) {
+        MemberBean findMember =  getMember(context);
+        if(findMember == null) return null;
+
+        if(findMember.wishList == null){
+            findMember.wishList= new ArrayList<>();
+            findMember.wishList.add("Write your wishes");
+        }
+
+        return findMember.wishList;
+    }
+
 
     //멤버 교체. 기록 수정했을때나
     public static void setMember(Context context, MemberBean memberBean){

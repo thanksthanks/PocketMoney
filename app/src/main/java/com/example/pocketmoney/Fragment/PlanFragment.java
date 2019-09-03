@@ -35,7 +35,7 @@ public class PlanFragment extends Fragment {
     ListAdapter adapter;
     MemberBean member;
 
-    ArrayList<String> wishs;
+    ArrayList<String> wishes;
     ArrayAdapter<String> adapterWish;
     EditText edtWish;
 
@@ -53,12 +53,13 @@ public class PlanFragment extends Fragment {
         view.findViewById(R.id.btnDel).setOnClickListener(mBtnClick);
 
         edtWish= view.findViewById(R.id.edtWish);
-        wishs = new ArrayList<String>();
-        wishs.add("Write your wishes");
 
-        adapterWish = new ArrayAdapter<String>(getContext(), android.R.layout.simple_list_item_single_choice , wishs);
+        wishes = FileDB.getMemberWishList(getContext());
+        //wishes.add("Write your wishes");
+
+        adapterWish = new ArrayAdapter<String>(getContext(), android.R.layout.simple_list_item_single_choice , wishes);
         mListWish = view.findViewById(R.id.listWish);
-        mListPlan.setAdapter(adapter);
+        mListWish.setAdapter(adapterWish);
         mListWish.setChoiceMode(ListView.CHOICE_MODE_SINGLE);
 
 
@@ -70,6 +71,8 @@ public class PlanFragment extends Fragment {
         super.onResume();
 
         plans = FileDB.getMemberPlanList(getContext());
+        //wishes = FileDB.getMemberWishList(getContext());
+
 
         adapter = new ListAdapter(plans,getContext());
         mListPlan.setAdapter(adapter);
@@ -86,18 +89,21 @@ public class PlanFragment extends Fragment {
                 case R.id.btnAdd:
                     String edt=edtWish.getText().toString();
                     if(edt.length()!=0){
-                        wishs.add(edt);
+                        wishes.add(edt);
                         edtWish.setText("");
                         adapterWish.notifyDataSetChanged();
+                        FileDB.setWishList(getContext(),wishes);
+                        //Toast.makeText(getContext(),"입력",Toast.LENGTH_SHORT).show();
                     }
                     break;
                 case R.id.btnDel:
                     int pos;
                     pos=mListWish.getCheckedItemPosition();
                     if(pos!=ListView.INVALID_POSITION){
-                        wishs.remove(pos);
+                        wishes.remove(pos);
                         mListWish.clearChoices();
                         adapterWish.notifyDataSetChanged();
+                        FileDB.setWishList(getContext(),wishes);
                     }
                     break;
             }

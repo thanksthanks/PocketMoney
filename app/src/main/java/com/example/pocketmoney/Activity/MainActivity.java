@@ -1,13 +1,13 @@
 package com.example.pocketmoney.Activity;
 
+import android.os.Bundle;
+import android.widget.Toast;
+
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
 import androidx.viewpager.widget.ViewPager;
-
-import android.os.Bundle;
-import android.widget.Toast;
 
 import com.example.pocketmoney.Fragment.GameFragment;
 import com.example.pocketmoney.Fragment.HomeFragment;
@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
         mTabLayout.addTab(mTabLayout.newTab().setText("용돈 계획장"));
         mTabLayout.addTab(mTabLayout.newTab().setText("용돈 기록하기"));
         mTabLayout.addTab(mTabLayout.newTab().setText("게임하기"));
-        mTabLayout.addTab(mTabLayout.newTab().setText("회원정보"));
+        mTabLayout.addTab(mTabLayout.newTab().setText("설정"));
         mTabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
 
         //viewPager 생성

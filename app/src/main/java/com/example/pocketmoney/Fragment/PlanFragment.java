@@ -1,6 +1,7 @@
 package com.example.pocketmoney.Fragment;
 
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
@@ -11,13 +12,16 @@ import android.widget.ArrayAdapter;
 import android.widget.BaseAdapter;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
+import com.example.pocketmoney.Activity.ModifyPlanActivity;
 import com.example.pocketmoney.Activity.PlanActivity;
 import com.example.pocketmoney.Bean.MemberBean;
 import com.example.pocketmoney.Bean.PlanBean;
@@ -145,9 +149,10 @@ public class PlanFragment extends Fragment {
             TextView txtIncome = view.findViewById(R.id.txtIncome);
             TextView txtSpend = view.findViewById(R.id.txtSpend);
             TextView txtSum = view.findViewById(R.id.txtSum);
-            TextView txtContent = view.findViewById(R.id.txtContent);
-            TextView txtDate = view.findViewById(R.id.txtDate);
+            //TextView txtContent = view.findViewById(R.id.txtContent);
+            //TextView txtDate = view.findViewById(R.id.txtDate);
             Button btnDel = view.findViewById(R.id.btnDel);
+            LinearLayout applyBox = view.findViewById(R.id.applybox);
 
             // 원본에서 i번째 Item 획득
             final PlanBean plan = plans.get(i);
@@ -156,18 +161,40 @@ public class PlanFragment extends Fragment {
             txtIncome.setText(plan.income);
             txtSpend.setText(plan.spend);
             txtSum.setText(plan.sum);
-            txtContent.setText(plan.content);
-            txtDate.setText(plan.planDate);
-
+            //txtContent.setText(plan.content);
+            //txtDate.setText(plan.planDate);
             txtIncome.setTextColor(Color.parseColor("#0000FF"));
             txtSpend.setTextColor(Color.parseColor("#FF0000"));
+
+
+            applyBox.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    Intent intent = new Intent(mContext, ModifyPlanActivity.class);
+                    intent.putExtra("INDEX", i);   // 원본데이터의 순번
+                    intent.putExtra("PLAN_ID", plan.planId);
+                    mContext.startActivity(intent);
+                }
+            });
 
             btnDel.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-                    FileDB.deletePlan(getContext(),plan.planId);
-                    onResume();
-                }
+                android.app.AlertDialog.Builder builder = new android.app.AlertDialog.Builder(getContext());
+                    builder.setTitle("알림");
+                    builder.setMessage("삭제하시겠습니까?");
+                    builder.setPositiveButton("아니오", null);
+                    builder.setNegativeButton("예", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+                        FileDB.deletePlan(getContext(),plan.planId);
+                        onResume();
+                        Toast.makeText(getContext(), "삭제되었습니다", Toast.LENGTH_SHORT).show();
+                    }
+                });
+                    builder.create().show();
+
+            }
             });
 
             return view; // 완성된 UI 리턴

@@ -1,6 +1,8 @@
 package com.example.pocketmoney.Bean;
 
-public class PlanBean {
+import java.io.Serializable;
+
+public class PlanBean implements Serializable {
     public long planId;
     public String income;
     public String spend;

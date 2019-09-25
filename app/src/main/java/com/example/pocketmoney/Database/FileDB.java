@@ -30,6 +30,8 @@ public class FileDB {
         }
         //Gson으로 변환한다
         MemberBean member = mGson.fromJson(listStr,new TypeToken<MemberBean>(){}.getType() );
+        //MemberBean member = mGson.fromJson(listStr,MemberBean[].class );
+        //MemberBean member = mGson.fromJson(listStr, MemberBean.class);
         return member;
     }
 
@@ -43,14 +45,53 @@ public class FileDB {
         if(moneyList==null){
             moneyList = new ArrayList<>();
         }
+
+/*        List<YearListBean> moneyList = findMember.moneyList;
+        if(moneyList==null){
+            for(int i=0;i<4;i++){
+            YearListBean yearList = new YearListBean();
+                for(int k=0;k<12;k++){
+                    List<MoneyBean> monthListTmp = new ArrayList<>();
+                    yearList.yearList.add(monthListTmp);
+                }
+            moneyList.add(yearList);
+            }
+        }*/
+
+      /*  List<List<List<MoneyBean>>> moneyList=findMember.moneyList;
+        if(moneyList==null){
+            for(int i=0;i<4;i++){
+                List<List<MoneyBean>> yearListTmp= new ArrayList<>();
+                for(int k=0;k<12;k++){
+                    List<MoneyBean> monthListTmp = new ArrayList<>();
+                    yearListTmp.add(monthListTmp);
+                }
+                moneyList.add(yearListTmp);
+            }
+        }*/
+
         //고유번호 생성
         moneyBean.moneyId = System.currentTimeMillis();
+
+/*        for(int j=0;j<4;j++) {
+            if (moneyBean.moneyYear == 2019+j) {
+                for(int n=1; n<13; n++) {
+                    if (moneyBean.moneyMonth == n) {
+                        moneyList.get(j).yearList.get(n).add(moneyBean);
+                        break;
+                    }
+                }
+                break;
+            }
+        }*/
         moneyList.add(moneyBean);
         findMember.moneyList=moneyList;
+
 
         //저장
         setMember(context,findMember);
     }
+
 
 
     //용돈기록장 리스트를 획득
@@ -58,10 +99,24 @@ public class FileDB {
         MemberBean findMember =  getMember(context);
         if(findMember == null) return null;
 
-        if(findMember.moneyList == null)
-            findMember.moneyList= new ArrayList<>();
+        if(findMember.moneyList == null) {
+            findMember.moneyList = new ArrayList<>();
+        }
 
         return findMember.moneyList;
+    }
+
+    //특정 용돈기록장 찾기
+    public static MoneyBean findMoney(Context context, long moneyId){
+        List<MoneyBean> moneyList = getMemberMoneyList(context);
+        MoneyBean m=null;
+        for(MoneyBean money : moneyList){
+            if(money.moneyId == moneyId){
+                m = money;
+                break;
+            }
+        }
+        return m;
     }
 
     //용돈계획서를 추가하는 메서드
@@ -91,6 +146,43 @@ public class FileDB {
             findMember.planList= new ArrayList<>();
 
         return findMember.planList;
+    }
+
+    //특정 용돈계획서 찾기
+    public static PlanBean findPlan(Context context, long planId){
+        List<PlanBean> planList = getMemberPlanList(context);
+        PlanBean p=null;
+        for(PlanBean plan : planList){
+            if(plan.planId == planId){
+                p = plan;
+                break;
+            }
+        }
+        return p;
+    }
+
+    //기존 용돈계획서 수정
+    public  static void setPlan(Context context, PlanBean planBean, long planId){
+        MemberBean findMember =  getMember(context);
+        List<PlanBean> planList = getMemberPlanList(context);
+        PlanBean p = findPlan(context,planId);
+
+        p.spend=planBean.spend;
+        p.income=planBean.income;
+        //p.planDate=planBean.planDate;
+        p.sum=planBean.sum;
+        p.content=planBean.content;
+        p.planId=planId;
+
+        for(int i=0;i<planList.size();i++) {
+            if(planList.get(i).planId==planId) {
+                planList.set(i,p);
+                break;
+            }
+        }
+
+        findMember.planList = planList;
+        setMember(context,findMember);
     }
 
     //위시리스트를 추가하는 메서드
@@ -138,7 +230,7 @@ public class FileDB {
                 break;
             }
         }
-        findMember.moneyList = moneyList;
+        findMember.moneyList=moneyList;
         setMember(context,findMember);
     }
 

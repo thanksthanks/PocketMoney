@@ -9,8 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Activity.GameMissionActivity"></activity>
-        <activity android:name=".Activity.GamePlayActivity"></activity>
+        <activity android:name=".Activity.ModifyPlanActivity"></activity>
+        <activity android:name=".Activity.ModifyWriteActivity" />
+        <activity android:name=".Activity.GameMissionActivity" />
+        <activity android:name=".Activity.GamePlayActivity" />
         <activity android:name=".Activity.PlanActivity" />
         <activity android:name=".Activity.SpendActivity" />
         <activity android:name=".Activity.WriteActivity" />

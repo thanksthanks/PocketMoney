@@ -1,6 +1,7 @@
 package com.example.pocketmoney.Fragment;
 
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
@@ -9,15 +10,18 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.Button;
+import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.NumberPicker;
 import android.widget.Spinner;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
+import com.example.pocketmoney.Activity.ModifyWriteActivity;
 import com.example.pocketmoney.Activity.SpendActivity;
 import com.example.pocketmoney.Activity.WriteActivity;
 import com.example.pocketmoney.Bean.MemberBean;
@@ -62,10 +66,13 @@ public class WriteFragment extends Fragment {
         yearSpinner = view.findViewById(R.id.yearSpinner);
         //monthSpinner=view.findViewById(R.id.monthSpinner);
 
+
         NumberPicker picker1 = view.findViewById(R.id.picker1);
         picker1.setMinValue(1);
         picker1.setMaxValue(12);
         picker1.setWrapSelectorWheel(false);
+        intMonth=picker1.getValue();
+
         //picker1.setDisplayedValues(new String[]{"1월", "2월", "3월", "4월", "5월", "6월", "7월", "8월", "9월", "10월", "11월", "12월"});
 
 
@@ -75,6 +82,7 @@ public class WriteFragment extends Fragment {
 
         yearSpinner.setSelection(2);
         picker1.setValue(month);
+        intYear= Integer.parseInt(yearSpinner.getSelectedItem().toString());
         /*monthSpinner.setSelection(2);
         monthSpinner.setSelection(month);
         monthSpinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
@@ -137,6 +145,7 @@ public class WriteFragment extends Fragment {
         LayoutInflater inflater;
 
 
+
         public ListAdapter(List<MoneyBean> moneys, Context context) {
             this.moneys = moneys;
             this.mContext = context;
@@ -167,6 +176,7 @@ public class WriteFragment extends Fragment {
             TextView txtSource = view.findViewById(R.id.txtSource);
             TextView txtMoney = view.findViewById(R.id.txtMoney);
             Button btnDel = view.findViewById(R.id.btnDel);
+            LinearLayout applyBox = view.findViewById(R.id.applybox);
 
             // 원본에서 i번째 Item 획득
             final MoneyBean money = moneys.get(i);
@@ -183,14 +193,35 @@ public class WriteFragment extends Fragment {
                 txtMoney.setTextColor(Color.parseColor("#FF0000"));
             }
 
-            btnDel.setOnClickListener(new View.OnClickListener() {
+            applyBox.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-                    FileDB.deleteMoney(getContext(),money.moneyId);
-                    onResume();
+                    Intent intent = new Intent(mContext, ModifyWriteActivity.class);
+                    intent.putExtra("INDEX", i);   // 원본데이터의 순번
+                    intent.putExtra("MONEY_ID", money.moneyId);
+                    mContext.startActivity(intent);
                 }
             });
 
+            btnDel.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    android.app.AlertDialog.Builder builder = new android.app.AlertDialog.Builder(getContext());
+                    builder.setTitle("알림");
+                    builder.setMessage("삭제하시겠습니까?");
+                    builder.setPositiveButton("아니오", null);
+                    builder.setNegativeButton("예", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialogInterface, int i) {
+                            FileDB.deleteMoney(getContext(), money.moneyId);
+                            onResume();
+                            Toast.makeText(getContext(), "삭제되었습니다", Toast.LENGTH_SHORT).show();
+                        }
+                    });
+                    builder.create().show();
+
+                }
+            });
             return view; // 완성된 UI 리턴
         }
     }

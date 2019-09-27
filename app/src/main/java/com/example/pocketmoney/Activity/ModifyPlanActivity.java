@@ -4,7 +4,9 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.EditText;
+import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -14,10 +16,16 @@ import com.example.pocketmoney.Bean.PlanBean;
 import com.example.pocketmoney.Database.FileDB;
 import com.example.pocketmoney.R;
 
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
 public class ModifyPlanActivity extends AppCompatActivity {
 
     EditText edtIncome,edtSpend,edtContent;
     TextView txtSum;
+    Spinner spinnerIncome,spinnerSpend;
+    int intSourceIncome,intSouceSpend;
+    String mDate;
     public long planId;
 
     @Override
@@ -33,6 +41,33 @@ public class ModifyPlanActivity extends AppCompatActivity {
         edtSpend =findViewById(R.id.edtSpendDetail);
         edtContent =findViewById(R.id.edtContentDetail);
         txtSum=findViewById(R.id.txtSumDetail);
+        spinnerIncome=findViewById(R.id.spinnerIncome);
+        spinnerSpend=findViewById(R.id.spinnerSpend);
+
+
+        spinnerIncome.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
+                intSourceIncome=i;
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> adapterView) { }
+        });
+
+
+        spinnerSpend.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
+                intSouceSpend=i;
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> adapterView) { }
+        });
+
+        SimpleDateFormat sdf = new SimpleDateFormat("yyyy.MM.dd");
+        mDate=sdf.format(new Date());
 
         Intent intent = getIntent();
 
@@ -43,6 +78,9 @@ public class ModifyPlanActivity extends AppCompatActivity {
             edtContent.setText(plan.content);
             edtIncome.setText(plan.income);
             edtSpend.setText(plan.spend);
+            //txtSum.setText(plan.sum);
+            spinnerIncome.setSelection(plan.intSouceIncome);
+            spinnerSpend.setSelection(plan.intSouceSpend);
         }
     }
 
@@ -85,9 +123,15 @@ public class ModifyPlanActivity extends AppCompatActivity {
         newPlan.spend=edtSpend.getText().toString();
         newPlan.sum=txtSum.getText().toString();
         newPlan.content=edtIncome.getText().toString();
-
+        newPlan.intSouceIncome=intSourceIncome;
+        newPlan.intToSourceIncome();
+        newPlan.intSouceSpend=intSouceSpend;
+        newPlan.intToSourceSpend();
+        newPlan.planDate=mDate;
+        newPlan.content=edtContent.getText().toString();
         FileDB.setPlan(getApplicationContext(),newPlan,planId);
 
+        setResult(RESULT_OK);
         finish();
     }
 }

@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Activity.ModifyPlanActivity"></activity>
+        <activity android:name=".Activity.DetailPlanActivity"></activity>
+        <activity android:name=".Activity.ModifyPlanActivity" />
         <activity android:name=".Activity.ModifyWriteActivity" />
         <activity android:name=".Activity.GameMissionActivity" />
         <activity android:name=".Activity.GamePlayActivity" />

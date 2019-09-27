@@ -3,7 +3,9 @@ package com.example.pocketmoney.Activity;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.EditText;
+import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -13,10 +15,16 @@ import com.example.pocketmoney.Bean.PlanBean;
 import com.example.pocketmoney.Database.FileDB;
 import com.example.pocketmoney.R;
 
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
 public class PlanActivity extends AppCompatActivity {
 
     EditText edtIncome,edtSpend,edtContent;
     TextView txtSum;
+    Spinner spinnerIncome,spinnerSpend;
+    int intSourceIncome,intSouceSpend;
+    String mDate;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,7 +39,33 @@ public class PlanActivity extends AppCompatActivity {
         edtSpend =findViewById(R.id.edtSpend);
         edtContent =findViewById(R.id.edtContent);
         txtSum=findViewById(R.id.txtSum);
+        spinnerIncome=findViewById(R.id.spinnerIncome);
+        spinnerSpend=findViewById(R.id.spinnerSpend);
 
+
+        spinnerIncome.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
+                intSourceIncome=i;
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> adapterView) { }
+        });
+
+
+        spinnerSpend.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
+                intSouceSpend=i;
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> adapterView) { }
+        });
+
+        SimpleDateFormat sdf = new SimpleDateFormat("yyyy.MM.dd");
+        mDate=sdf.format(new Date());
     }
 
     private View.OnClickListener mBtnClick = new View.OnClickListener() {
@@ -71,7 +105,12 @@ public class PlanActivity extends AppCompatActivity {
         newPlan.spend=edtSpend.getText().toString();
         newPlan.sum=txtSum.getText().toString();
         newPlan.content=edtIncome.getText().toString();
-
+        newPlan.intSouceIncome=intSourceIncome;
+        newPlan.intToSourceIncome();
+        newPlan.intSouceSpend=intSouceSpend;
+        newPlan.intToSourceSpend();
+        newPlan.planDate=mDate;
+        newPlan.content=edtContent.getText().toString();
 
         FileDB.addPlan(this, newPlan);
 

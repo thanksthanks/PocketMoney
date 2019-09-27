@@ -21,7 +21,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
-import com.example.pocketmoney.Activity.ModifyPlanActivity;
+import com.example.pocketmoney.Activity.DetailPlanActivity;
 import com.example.pocketmoney.Activity.PlanActivity;
 import com.example.pocketmoney.Bean.MemberBean;
 import com.example.pocketmoney.Bean.PlanBean;
@@ -170,7 +170,7 @@ public class PlanFragment extends Fragment {
             applyBox.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-                    Intent intent = new Intent(mContext, ModifyPlanActivity.class);
+                    Intent intent = new Intent(mContext, DetailPlanActivity.class);
                     intent.putExtra("INDEX", i);   // 원본데이터의 순번
                     intent.putExtra("PLAN_ID", plan.planId);
                     mContext.startActivity(intent);

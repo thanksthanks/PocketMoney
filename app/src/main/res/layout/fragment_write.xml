@@ -29,17 +29,18 @@
             android:text="년"
             android:textSize="15dp" />
 
-        <!--        <Spinner
+        <Spinner
             android:id="@+id/monthSpinner"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="5"
-            android:entries="@array/월" />-->
-        <NumberPicker
+            android:entries="@array/월" />
+
+<!--        <NumberPicker
             android:id="@+id/picker1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="5" />
+            android:layout_weight="5" />-->
 
         <TextView
             android:id="@+id/textView4"

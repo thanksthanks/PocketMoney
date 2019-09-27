@@ -6,7 +6,12 @@ public class YearListBean { //1월 ~ 12월 을 관리할 bean
 
     //public List<List<MoneyBean>> yearList;
 
+    public List<MoneyBean> moneyList;
+    public String yearMonth; //ex)2019.7
+    public int month;
+    public int year;
 
+/*
     public List<MoneyBean> moneyList1;
     public List<MoneyBean> moneyList2;
     public List<MoneyBean> moneyList3;
@@ -18,7 +23,7 @@ public class YearListBean { //1월 ~ 12월 을 관리할 bean
     public List<MoneyBean> moneyList9;
     public List<MoneyBean> moneyList10;
     public List<MoneyBean> moneyList11;
-    public List<MoneyBean> moneyList12;
+    public List<MoneyBean> moneyList12;*/
 
 
 

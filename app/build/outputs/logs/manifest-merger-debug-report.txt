@@ -1,14 +1,14 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\jungs\AndroidStudioProjects\PocketMoney\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from C:\Users\jungs\AndroidStudioProjects\PocketMoney\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from C:\Users\jungs\AndroidStudioProjects\PocketMoney\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from C:\Users\jungs\AndroidStudioProjects\PocketMoney\app\src\main\AndroidManifest.xml:2:1-27:12
+ADDED from C:\Users\jungs\AndroidStudioProjects\PocketMoney\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from C:\Users\jungs\AndroidStudioProjects\PocketMoney\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from C:\Users\jungs\AndroidStudioProjects\PocketMoney\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from C:\Users\jungs\AndroidStudioProjects\PocketMoney\app\src\main\AndroidManifest.xml:2:1-30:12
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\jungs\.gradle\caches\transforms-2\files-2.1\da33778003d68f8d656a588f7523a51b\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat:1.0.2] C:\Users\jungs\.gradle\caches\transforms-2\files-2.1\817f526dbfb51f6eaf4d1c2a4eefb256\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\jungs\.gradle\caches\transforms-2\files-2.1\3e2bb73d06263c76f0a233c0df81069e\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\jungs\.gradle\caches\transforms-2\files-2.1\5a7169f79ca783d2327fea179d3db91a\AndroidManifest.xml:17:1-22:12
-MERGED from [me.relex:circleindicator:1.2.2] C:\Users\jungs\.gradle\caches\transforms-2\files-2.1\b1c2fd682c8cae932eaab6d4fae516da\AndroidManifest.xml:2:1-12:12
+MERGED from [me.relex:circleindicator:1.2.2] C:\Users\jungs\.gradle\caches\transforms-2\files-2.1\2a971b85d2dafd7412d4f7f3a0f61c30\AndroidManifest.xml:2:1-12:12
 MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\jungs\.gradle\caches\transforms-2\files-2.1\41551a9adbdd61b79e9a3c752de9cb58\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\jungs\.gradle\caches\transforms-2\files-2.1\da223680eece4d7e6f51a1449a16c4ad\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\jungs\.gradle\caches\transforms-2\files-2.1\a0c734e382923a657489b89b803fe6ea\AndroidManifest.xml:17:1-22:12
@@ -38,25 +38,25 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\jungs\.gradle\ca
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\jungs\.gradle\caches\transforms-2\files-2.1\0f87d0f97acffdebbf9d18c767f5cb57\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\jungs\.gradle\caches\transforms-2\files-2.1\40b01be4906e98c623d2d604a00d7f14\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\jungs\.gradle\caches\transforms-2\files-2.1\de028cf6e6da0dd317fb792f6a1c48fb\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\jungs\AndroidStudioProjects\PocketMoney\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from C:\Users\jungs\AndroidStudioProjects\PocketMoney\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from C:\Users\jungs\AndroidStudioProjects\PocketMoney\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from C:\Users\jungs\AndroidStudioProjects\PocketMoney\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from C:\Users\jungs\AndroidStudioProjects\PocketMoney\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from C:\Users\jungs\AndroidStudioProjects\PocketMoney\app\src\main\AndroidManifest.xml:2:1-30:12
 	package
 		ADDED from C:\Users\jungs\AndroidStudioProjects\PocketMoney\app\src\main\AndroidManifest.xml:3:5-38
 		INJECTED from C:\Users\jungs\AndroidStudioProjects\PocketMoney\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\jungs\AndroidStudioProjects\PocketMoney\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\jungs\AndroidStudioProjects\PocketMoney\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\jungs\AndroidStudioProjects\PocketMoney\app\src\main\AndroidManifest.xml:2:1-27:12
+		ADDED from C:\Users\jungs\AndroidStudioProjects\PocketMoney\app\src\main\AndroidManifest.xml:2:1-30:12
 		INJECTED from C:\Users\jungs\AndroidStudioProjects\PocketMoney\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\jungs\AndroidStudioProjects\PocketMoney\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\jungs\AndroidStudioProjects\PocketMoney\app\src\main\AndroidManifest.xml:2:1-27:12
+		ADDED from C:\Users\jungs\AndroidStudioProjects\PocketMoney\app\src\main\AndroidManifest.xml:2:1-30:12
 		INJECTED from C:\Users\jungs\AndroidStudioProjects\PocketMoney\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\jungs\AndroidStudioProjects\PocketMoney\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\Users\jungs\AndroidStudioProjects\PocketMoney\app\src\main\AndroidManifest.xml:5:5-25:19
+ADDED from C:\Users\jungs\AndroidStudioProjects\PocketMoney\app\src\main\AndroidManifest.xml:5:5-28:19
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\jungs\.gradle\caches\transforms-2\files-2.1\da33778003d68f8d656a588f7523a51b\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\jungs\.gradle\caches\transforms-2\files-2.1\da33778003d68f8d656a588f7523a51b\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\jungs\.gradle\caches\transforms-2\files-2.1\3e2bb73d06263c76f0a233c0df81069e\AndroidManifest.xml:9:5-20
@@ -79,44 +79,56 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\ju
 		ADDED from C:\Users\jungs\AndroidStudioProjects\PocketMoney\app\src\main\AndroidManifest.xml:6:9-35
 	android:theme
 		ADDED from C:\Users\jungs\AndroidStudioProjects\PocketMoney\app\src\main\AndroidManifest.xml:11:9-40
+activity#com.example.pocketmoney.Activity.DetailPlanActivity
+ADDED from C:\Users\jungs\AndroidStudioProjects\PocketMoney\app\src\main\AndroidManifest.xml:12:9-74
+	android:name
+		ADDED from C:\Users\jungs\AndroidStudioProjects\PocketMoney\app\src\main\AndroidManifest.xml:12:19-62
+activity#com.example.pocketmoney.Activity.ModifyPlanActivity
+ADDED from C:\Users\jungs\AndroidStudioProjects\PocketMoney\app\src\main\AndroidManifest.xml:13:9-65
+	android:name
+		ADDED from C:\Users\jungs\AndroidStudioProjects\PocketMoney\app\src\main\AndroidManifest.xml:13:19-62
+activity#com.example.pocketmoney.Activity.ModifyWriteActivity
+ADDED from C:\Users\jungs\AndroidStudioProjects\PocketMoney\app\src\main\AndroidManifest.xml:14:9-66
+	android:name
+		ADDED from C:\Users\jungs\AndroidStudioProjects\PocketMoney\app\src\main\AndroidManifest.xml:14:19-63
 activity#com.example.pocketmoney.Activity.GameMissionActivity
-ADDED from C:\Users\jungs\AndroidStudioProjects\PocketMoney\app\src\main\AndroidManifest.xml:12:9-75
+ADDED from C:\Users\jungs\AndroidStudioProjects\PocketMoney\app\src\main\AndroidManifest.xml:15:9-66
 	android:name
-		ADDED from C:\Users\jungs\AndroidStudioProjects\PocketMoney\app\src\main\AndroidManifest.xml:12:19-63
+		ADDED from C:\Users\jungs\AndroidStudioProjects\PocketMoney\app\src\main\AndroidManifest.xml:15:19-63
 activity#com.example.pocketmoney.Activity.GamePlayActivity
-ADDED from C:\Users\jungs\AndroidStudioProjects\PocketMoney\app\src\main\AndroidManifest.xml:13:9-72
+ADDED from C:\Users\jungs\AndroidStudioProjects\PocketMoney\app\src\main\AndroidManifest.xml:16:9-63
 	android:name
-		ADDED from C:\Users\jungs\AndroidStudioProjects\PocketMoney\app\src\main\AndroidManifest.xml:13:19-60
+		ADDED from C:\Users\jungs\AndroidStudioProjects\PocketMoney\app\src\main\AndroidManifest.xml:16:19-60
 activity#com.example.pocketmoney.Activity.PlanActivity
-ADDED from C:\Users\jungs\AndroidStudioProjects\PocketMoney\app\src\main\AndroidManifest.xml:14:9-59
+ADDED from C:\Users\jungs\AndroidStudioProjects\PocketMoney\app\src\main\AndroidManifest.xml:17:9-59
 	android:name
-		ADDED from C:\Users\jungs\AndroidStudioProjects\PocketMoney\app\src\main\AndroidManifest.xml:14:19-56
+		ADDED from C:\Users\jungs\AndroidStudioProjects\PocketMoney\app\src\main\AndroidManifest.xml:17:19-56
 activity#com.example.pocketmoney.Activity.SpendActivity
-ADDED from C:\Users\jungs\AndroidStudioProjects\PocketMoney\app\src\main\AndroidManifest.xml:15:9-60
+ADDED from C:\Users\jungs\AndroidStudioProjects\PocketMoney\app\src\main\AndroidManifest.xml:18:9-60
 	android:name
-		ADDED from C:\Users\jungs\AndroidStudioProjects\PocketMoney\app\src\main\AndroidManifest.xml:15:19-57
+		ADDED from C:\Users\jungs\AndroidStudioProjects\PocketMoney\app\src\main\AndroidManifest.xml:18:19-57
 activity#com.example.pocketmoney.Activity.WriteActivity
-ADDED from C:\Users\jungs\AndroidStudioProjects\PocketMoney\app\src\main\AndroidManifest.xml:16:9-60
+ADDED from C:\Users\jungs\AndroidStudioProjects\PocketMoney\app\src\main\AndroidManifest.xml:19:9-60
 	android:name
-		ADDED from C:\Users\jungs\AndroidStudioProjects\PocketMoney\app\src\main\AndroidManifest.xml:16:19-57
+		ADDED from C:\Users\jungs\AndroidStudioProjects\PocketMoney\app\src\main\AndroidManifest.xml:19:19-57
 activity#com.example.pocketmoney.Activity.LoginActivity
-ADDED from C:\Users\jungs\AndroidStudioProjects\PocketMoney\app\src\main\AndroidManifest.xml:17:9-60
+ADDED from C:\Users\jungs\AndroidStudioProjects\PocketMoney\app\src\main\AndroidManifest.xml:20:9-60
 	android:name
-		ADDED from C:\Users\jungs\AndroidStudioProjects\PocketMoney\app\src\main\AndroidManifest.xml:17:19-57
+		ADDED from C:\Users\jungs\AndroidStudioProjects\PocketMoney\app\src\main\AndroidManifest.xml:20:19-57
 activity#com.example.pocketmoney.Activity.MainActivity
-ADDED from C:\Users\jungs\AndroidStudioProjects\PocketMoney\app\src\main\AndroidManifest.xml:18:9-24:20
+ADDED from C:\Users\jungs\AndroidStudioProjects\PocketMoney\app\src\main\AndroidManifest.xml:21:9-27:20
 	android:name
-		ADDED from C:\Users\jungs\AndroidStudioProjects\PocketMoney\app\src\main\AndroidManifest.xml:18:19-56
+		ADDED from C:\Users\jungs\AndroidStudioProjects\PocketMoney\app\src\main\AndroidManifest.xml:21:19-56
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\jungs\AndroidStudioProjects\PocketMoney\app\src\main\AndroidManifest.xml:19:13-23:29
+ADDED from C:\Users\jungs\AndroidStudioProjects\PocketMoney\app\src\main\AndroidManifest.xml:22:13-26:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\jungs\AndroidStudioProjects\PocketMoney\app\src\main\AndroidManifest.xml:20:17-69
+ADDED from C:\Users\jungs\AndroidStudioProjects\PocketMoney\app\src\main\AndroidManifest.xml:23:17-69
 	android:name
-		ADDED from C:\Users\jungs\AndroidStudioProjects\PocketMoney\app\src\main\AndroidManifest.xml:20:25-66
+		ADDED from C:\Users\jungs\AndroidStudioProjects\PocketMoney\app\src\main\AndroidManifest.xml:23:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\jungs\AndroidStudioProjects\PocketMoney\app\src\main\AndroidManifest.xml:22:17-77
+ADDED from C:\Users\jungs\AndroidStudioProjects\PocketMoney\app\src\main\AndroidManifest.xml:25:17-77
 	android:name
-		ADDED from C:\Users\jungs\AndroidStudioProjects\PocketMoney\app\src\main\AndroidManifest.xml:22:27-74
+		ADDED from C:\Users\jungs\AndroidStudioProjects\PocketMoney\app\src\main\AndroidManifest.xml:25:27-74
 uses-sdk
 INJECTED from C:\Users\jungs\AndroidStudioProjects\PocketMoney\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\jungs\AndroidStudioProjects\PocketMoney\app\src\main\AndroidManifest.xml
@@ -129,8 +141,8 @@ MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\jungs\.g
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\jungs\.gradle\caches\transforms-2\files-2.1\3e2bb73d06263c76f0a233c0df81069e\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\jungs\.gradle\caches\transforms-2\files-2.1\5a7169f79ca783d2327fea179d3db91a\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\jungs\.gradle\caches\transforms-2\files-2.1\5a7169f79ca783d2327fea179d3db91a\AndroidManifest.xml:20:5-44
-MERGED from [me.relex:circleindicator:1.2.2] C:\Users\jungs\.gradle\caches\transforms-2\files-2.1\b1c2fd682c8cae932eaab6d4fae516da\AndroidManifest.xml:8:5-10:41
-MERGED from [me.relex:circleindicator:1.2.2] C:\Users\jungs\.gradle\caches\transforms-2\files-2.1\b1c2fd682c8cae932eaab6d4fae516da\AndroidManifest.xml:8:5-10:41
+MERGED from [me.relex:circleindicator:1.2.2] C:\Users\jungs\.gradle\caches\transforms-2\files-2.1\2a971b85d2dafd7412d4f7f3a0f61c30\AndroidManifest.xml:8:5-10:41
+MERGED from [me.relex:circleindicator:1.2.2] C:\Users\jungs\.gradle\caches\transforms-2\files-2.1\2a971b85d2dafd7412d4f7f3a0f61c30\AndroidManifest.xml:8:5-10:41
 MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\jungs\.gradle\caches\transforms-2\files-2.1\41551a9adbdd61b79e9a3c752de9cb58\AndroidManifest.xml:20:5-44
 MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\jungs\.gradle\caches\transforms-2\files-2.1\41551a9adbdd61b79e9a3c752de9cb58\AndroidManifest.xml:20:5-44
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\jungs\.gradle\caches\transforms-2\files-2.1\da223680eece4d7e6f51a1449a16c4ad\AndroidManifest.xml:20:5-44

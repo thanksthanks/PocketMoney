@@ -8,11 +8,11 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.BaseAdapter;
 import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.ListView;
-import android.widget.NumberPicker;
 import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -45,6 +45,7 @@ public class WriteFragment extends Fragment {
 
     Spinner yearSpinner,monthSpinner;
     int intYear,intMonth;
+    String yearMonth;
     TextView txtIncome,txtSpend,txtSum;
 
 
@@ -64,14 +65,14 @@ public class WriteFragment extends Fragment {
         mListMoney = view.findViewById(R.id.listMoney);
 
         yearSpinner = view.findViewById(R.id.yearSpinner);
-        //monthSpinner=view.findViewById(R.id.monthSpinner);
+        monthSpinner=view.findViewById(R.id.monthSpinner);
 
 
-        NumberPicker picker1 = view.findViewById(R.id.picker1);
+/*        NumberPicker picker1 = view.findViewById(R.id.picker1);
         picker1.setMinValue(1);
         picker1.setMaxValue(12);
         picker1.setWrapSelectorWheel(false);
-        intMonth=picker1.getValue();
+        intMonth=picker1.getValue();*/
 
         //picker1.setDisplayedValues(new String[]{"1월", "2월", "3월", "4월", "5월", "6월", "7월", "8월", "9월", "10월", "11월", "12월"});
 
@@ -79,32 +80,46 @@ public class WriteFragment extends Fragment {
         Calendar cal = Calendar.getInstance();
         //int year = cal.get ( cal.YEAR );
         int month = cal.get(cal.MONTH);
-
         yearSpinner.setSelection(2);
-        picker1.setValue(month);
-        intYear= Integer.parseInt(yearSpinner.getSelectedItem().toString());
-        /*monthSpinner.setSelection(2);
         monthSpinner.setSelection(month);
-        monthSpinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+        //picker1.setValue(month);
+
+        yearSpinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
-                intMonth=i;
+                intYear=i;
+                onResume();
             }
 
             @Override
             public void onNothingSelected(AdapterView<?> adapterView) { }
         });
-*/
+
+        monthSpinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
+                intMonth=i;
+                onResume();
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> adapterView) { }
+        });
+
     return view;
     }
 
     @Override
     public void onResume() {
         super.onResume();
+        intYear= Integer.parseInt(yearSpinner.getSelectedItem().toString());
+        intMonth= Integer.parseInt(monthSpinner.getSelectedItem().toString());
+        yearMonth = intYear+"."+intMonth;
+        Toast.makeText(getContext(),"year: "+intYear+"month: "+intMonth,Toast.LENGTH_LONG).show();
 
         int sumIncome=0,sumSpend=0,sum=0;
         member = FileDB.getMember(getContext());
-        moneys = FileDB.getMemberMoneyList(getContext());
+        moneys = FileDB.getMemberMoneyList(getContext(),intYear,intMonth);
 
         adapter = new ListAdapter(moneys,getContext());
         mListMoney.setAdapter(adapter);
@@ -199,6 +214,8 @@ public class WriteFragment extends Fragment {
                     Intent intent = new Intent(mContext, ModifyWriteActivity.class);
                     intent.putExtra("INDEX", i);   // 원본데이터의 순번
                     intent.putExtra("MONEY_ID", money.moneyId);
+                    intent.putExtra("YEAR",intYear);
+                    intent.putExtra("MONTH",intMonth);
                     mContext.startActivity(intent);
                 }
             });
@@ -213,7 +230,7 @@ public class WriteFragment extends Fragment {
                     builder.setNegativeButton("예", new DialogInterface.OnClickListener() {
                         @Override
                         public void onClick(DialogInterface dialogInterface, int i) {
-                            FileDB.deleteMoney(getContext(), money.moneyId);
+                            FileDB.deleteMoney(getContext(), money.moneyId, intYear,intMonth);
                             onResume();
                             Toast.makeText(getContext(), "삭제되었습니다", Toast.LENGTH_SHORT).show();
                         }

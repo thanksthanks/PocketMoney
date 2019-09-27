@@ -2,10 +2,12 @@ package com.example.pocketmoney.Database;
 
 import android.content.Context;
 import android.content.SharedPreferences;
+import android.text.TextUtils;
 
 import com.example.pocketmoney.Bean.MemberBean;
 import com.example.pocketmoney.Bean.MoneyBean;
 import com.example.pocketmoney.Bean.PlanBean;
+import com.example.pocketmoney.Bean.YearListBean;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 
@@ -36,55 +38,71 @@ public class FileDB {
     }
 
 
+
+    //월별로 찾기
+    public static YearListBean findList(Context context,int year, int month){
+        long i=0;
+        MemberBean findMember =  getMember(context);
+        List<YearListBean> moneyList = findMember.moneyList;
+
+        YearListBean y=null;
+        String s = year+"."+month;
+
+        for(YearListBean yearListBean : moneyList){
+            if(TextUtils.equals(yearListBean.yearMonth, s) ){
+                y = yearListBean;
+                break;
+            }
+        }
+        return y;
+    }
+
+
     //용돈기록장을 추가하는 메서드
     public static void addMoney(Context context, MoneyBean moneyBean) {
         MemberBean findMember =  getMember(context);
         if(findMember==null) return;
-
-        List<MoneyBean> moneyList = findMember.moneyList;
-        if(moneyList==null){
-            moneyList = new ArrayList<>();
-        }
-
-/*        List<YearListBean> moneyList = findMember.moneyList;
-        if(moneyList==null){
-            for(int i=0;i<4;i++){
-            YearListBean yearList = new YearListBean();
-                for(int k=0;k<12;k++){
-                    List<MoneyBean> monthListTmp = new ArrayList<>();
-                    yearList.yearList.add(monthListTmp);
-                }
-            moneyList.add(yearList);
-            }
-        }*/
-
-      /*  List<List<List<MoneyBean>>> moneyList=findMember.moneyList;
-        if(moneyList==null){
-            for(int i=0;i<4;i++){
-                List<List<MoneyBean>> yearListTmp= new ArrayList<>();
-                for(int k=0;k<12;k++){
-                    List<MoneyBean> monthListTmp = new ArrayList<>();
-                    yearListTmp.add(monthListTmp);
-                }
-                moneyList.add(yearListTmp);
-            }
-        }*/
-
+        int exist=0;
         //고유번호 생성
         moneyBean.moneyId = System.currentTimeMillis();
 
-/*        for(int j=0;j<4;j++) {
-            if (moneyBean.moneyYear == 2019+j) {
-                for(int n=1; n<13; n++) {
-                    if (moneyBean.moneyMonth == n) {
-                        moneyList.get(j).yearList.get(n).add(moneyBean);
-                        break;
-                    }
-                }
-                break;
+        List<YearListBean> moneyList = findMember.moneyList;
+
+        if(moneyList==null){
+            moneyList = new ArrayList<>();
+            YearListBean yearList = new YearListBean();
+            yearList.moneyList=new ArrayList<>();
+            yearList.year=moneyBean.moneyYear;
+            yearList.month=moneyBean.moneyMonth;
+            yearList.moneyList.add(moneyBean);
+            //고유번호 생성
+            yearList.yearMonth = yearList.year+"."+yearList.month;
+            moneyList.add(yearList);
+            exist=1;
             }
-        }*/
-        moneyList.add(moneyBean);
+        else {
+
+            for(YearListBean yearListBean : moneyList){
+                if(yearListBean.year == moneyBean.moneyYear && yearListBean.month==moneyBean.moneyYear){
+                    if(yearListBean.moneyList==null)
+                        yearListBean.moneyList=new ArrayList<>();
+                    yearListBean.moneyList.add(moneyBean);
+                    moneyList.add(yearListBean);
+                    exist=1;//이미 해당 월의 리스트가 존재해서 집어넣음
+                    break;
+                }
+            }
+            if(exist==0){
+                YearListBean yearList = new YearListBean();
+                yearList.moneyList = new ArrayList<>();
+                yearList.year=moneyBean.moneyYear;
+                yearList.month=moneyBean.moneyMonth;
+                yearList.yearMonth = yearList.year+"."+yearList.month;
+                yearList.moneyList.add(moneyBean);
+                moneyList.add(yearList);
+            }
+        }
+
         findMember.moneyList=moneyList;
 
 
@@ -95,20 +113,23 @@ public class FileDB {
 
 
     //용돈기록장 리스트를 획득
-    public static List<MoneyBean> getMemberMoneyList(Context context) {
+    public static List<MoneyBean> getMemberMoneyList(Context context, int year, int month) {
         MemberBean findMember =  getMember(context);
         if(findMember == null) return null;
 
-        if(findMember.moneyList == null) {
-            findMember.moneyList = new ArrayList<>();
+        YearListBean yearListBean = findList(context,year, month);
+
+        if(yearListBean== null) {
+            yearListBean = new YearListBean();
+            yearListBean.moneyList = new ArrayList<>();
         }
 
-        return findMember.moneyList;
+        return yearListBean.moneyList;
     }
 
     //특정 용돈기록장 찾기
-    public static MoneyBean findMoney(Context context, long moneyId){
-        List<MoneyBean> moneyList = getMemberMoneyList(context);
+    public static MoneyBean findMoney(Context context, long moneyId, int year, int month){
+        List<MoneyBean> moneyList = getMemberMoneyList(context,year,month);
         MoneyBean m=null;
         for(MoneyBean money : moneyList){
             if(money.moneyId == moneyId){
@@ -220,9 +241,9 @@ public class FileDB {
     }
 
     //기록 삭제
-    public static void deleteMoney(Context context,long moneyId){
+    public static void deleteMoney(Context context,long moneyId,int year, int month){
         MemberBean findMember =  getMember(context);
-        List<MoneyBean> moneyList = getMemberMoneyList(context);
+        List<MoneyBean> moneyList = getMemberMoneyList(context,year, month);
 
         for(int i=0;i<moneyList.size();i++) {
             if(moneyList.get(i).moneyId==moneyId) {
@@ -230,7 +251,18 @@ public class FileDB {
                 break;
             }
         }
-        findMember.moneyList=moneyList;
+
+        String s = year+"."+month;
+
+        for(int i = 0; i < findMember.moneyList.size();i++){
+            if(TextUtils.equals(findMember.moneyList.get(i).yearMonth,s)){
+                findMember.moneyList.get(i).moneyList = moneyList;
+                break;
+            }
+        }
+
+        //findMember.moneyList = moneyList;
+
         setMember(context,findMember);
     }
 

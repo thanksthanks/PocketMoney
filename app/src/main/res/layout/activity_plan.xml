@@ -16,7 +16,7 @@
             android:id="@+id/textView11"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
+            android:layout_weight="0.5"
             android:text="예상 수입" />
 
         <EditText
@@ -24,8 +24,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:ems="10"
             android:inputType="number" />
+
+        <Spinner
+            android:id="@+id/spinnerIncome"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:entries="@array/수입"/>
     </LinearLayout>
 
     <LinearLayout
@@ -37,7 +43,7 @@
             android:id="@+id/textView12"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
+            android:layout_weight="0.5"
             android:text="예상 지출" />
 
         <EditText
@@ -45,8 +51,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:ems="10"
             android:inputType="number" />
+
+        <Spinner
+            android:id="@+id/spinnerSpend"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:entries="@array/지출"/>
     </LinearLayout>
 
     <LinearLayout

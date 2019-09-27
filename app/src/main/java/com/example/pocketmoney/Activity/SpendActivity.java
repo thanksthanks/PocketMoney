@@ -21,6 +21,7 @@ public class SpendActivity extends AppCompatActivity {
     DatePicker datePickerSpend;
     Spinner spinnerSpend;
     String mDate;
+    int mMomth,mYear;
     int intSource;
 
     @Override
@@ -41,6 +42,9 @@ public class SpendActivity extends AppCompatActivity {
             public void onDateChanged(DatePicker view, int year, int monthOfYear, int dayOfMonth) {
                 String date = year + "." + (monthOfYear+1) + "." + dayOfMonth;
                 mDate=date;
+                mMomth=monthOfYear+1;
+                mYear=year;
+                Toast.makeText(getApplicationContext(),"year: "+mYear+"month: "+mMomth,Toast.LENGTH_LONG).show();
             }
 
         });
@@ -87,6 +91,8 @@ public class SpendActivity extends AppCompatActivity {
         newMoney.intSouce=intSource;
         newMoney.intToSource(0);
         newMoney.moneyDate=mDate;
+        newMoney.moneyMonth =mMomth;
+        newMoney.moneyYear =mYear;
 
         FileDB.addMoney(this, newMoney);
 

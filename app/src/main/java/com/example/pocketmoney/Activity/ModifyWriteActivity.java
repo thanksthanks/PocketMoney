@@ -14,6 +14,7 @@ import com.example.pocketmoney.R;
 public class ModifyWriteActivity extends AppCompatActivity {
 
     TextView txt,txtMoney,txtSpend,txtDate;
+    public int intYear,intMonth;
     public long moneyId;
 
     @Override
@@ -34,7 +35,9 @@ public class ModifyWriteActivity extends AppCompatActivity {
         int index = intent.getIntExtra("INDEX", -1); // 리스트 데이터의 Index
         if (index != -1) {
             moneyId=intent.getLongExtra("MONEY_ID",-1);
-            MoneyBean money = FileDB.findMoney(this, moneyId);
+            intYear=intent.getIntExtra("YEAR",-1);
+            intMonth=intent.getIntExtra("MONTH",-1);
+            MoneyBean money = FileDB.findMoney(this, moneyId, intYear,intMonth);
             if (money.type==1)
                 txt.setText("수입");
             else
@@ -50,6 +53,7 @@ public class ModifyWriteActivity extends AppCompatActivity {
         public void onClick(View view) {
             switch (view.getId()){
                 case R.id.btnCancel:
+                    finish();
                     break;
                 case R.id.btnModifiy:
                     break;

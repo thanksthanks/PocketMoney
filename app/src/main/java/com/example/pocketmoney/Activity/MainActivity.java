@@ -12,11 +12,6 @@ import androidx.viewpager.widget.ViewPager;
 import com.example.pocketmoney.Fragment.AssetFragment;
 import com.example.pocketmoney.Fragment.BudgetFragment;
 import com.example.pocketmoney.Fragment.ContentsFragment;
-import com.example.pocketmoney.Fragment.GameFragment;
-import com.example.pocketmoney.Fragment.HomeFragment;
-import com.example.pocketmoney.Fragment.PlanFragment;
-import com.example.pocketmoney.Fragment.RecordFragment;
-import com.example.pocketmoney.Fragment.UserFragment;
 import com.example.pocketmoney.Fragment.WriteFragment;
 import com.example.pocketmoney.R;
 import com.google.android.material.tabs.TabLayout;
@@ -79,7 +74,7 @@ public class MainActivity extends AppCompatActivity {
                 case 1 :
                     return new BudgetFragment();
                 case 2 :
-                    return new RecordFragment();
+                    return new WriteFragment();
                 case 3 :
                     return new ContentsFragment();
             }

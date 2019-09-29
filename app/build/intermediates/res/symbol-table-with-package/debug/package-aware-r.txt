@@ -1072,6 +1072,7 @@ drawable good
 drawable grass
 drawable ic_account_circle_black_24dp
 drawable ic_add_circle_black_24dp
+drawable ic_dehaze_black_24dp
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable ic_mtrl_chip_checked_black
@@ -1168,6 +1169,7 @@ id button
 id button2
 id button3
 id buttonPanel
+id buttons
 id cancel_action
 id center
 id center_horizontal
@@ -1199,6 +1201,7 @@ id disableHome
 id donation1
 id donation2
 id donationCoin
+id economic
 id edit_query
 id edtContent
 id edtContentDetail
@@ -1386,6 +1389,7 @@ id time
 id title
 id titleDividerNoCustom
 id title_template
+id toolbar
 id top
 id topPanel
 id touch_outside
@@ -1415,6 +1419,7 @@ id vertical
 id viewPager
 id view_offset_helper
 id visible
+id webview
 id withText
 id wrap
 id wrap_content
@@ -1491,6 +1496,9 @@ layout design_navigation_item_subheader
 layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_password_icon
+layout fragment_asset
+layout fragment_budget
+layout fragment_contents
 layout fragment_explain_donation
 layout fragment_explain_insurance
 layout fragment_explain_invest
@@ -1499,6 +1507,7 @@ layout fragment_explain_spending
 layout fragment_explain_state
 layout fragment_game
 layout fragment_home
+layout fragment_magazine
 layout fragment_mission_donation1
 layout fragment_mission_donation2
 layout fragment_mission_insurance1
@@ -1513,6 +1522,7 @@ layout fragment_mission_spending1_2
 layout fragment_mission_spending2
 layout fragment_mission_spending3
 layout fragment_plan
+layout fragment_record
 layout fragment_user
 layout fragment_write
 layout mtrl_layout_snackbar

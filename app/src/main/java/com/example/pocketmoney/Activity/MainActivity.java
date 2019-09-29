@@ -9,9 +9,13 @@ import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
 import androidx.viewpager.widget.ViewPager;
 
+import com.example.pocketmoney.Fragment.AssetFragment;
+import com.example.pocketmoney.Fragment.BudgetFragment;
+import com.example.pocketmoney.Fragment.ContentsFragment;
 import com.example.pocketmoney.Fragment.GameFragment;
 import com.example.pocketmoney.Fragment.HomeFragment;
 import com.example.pocketmoney.Fragment.PlanFragment;
+import com.example.pocketmoney.Fragment.RecordFragment;
 import com.example.pocketmoney.Fragment.UserFragment;
 import com.example.pocketmoney.Fragment.WriteFragment;
 import com.example.pocketmoney.R;
@@ -34,11 +38,11 @@ public class MainActivity extends AppCompatActivity {
         mViewPager=findViewById(R.id.viewPager);
 
         //탭생성
-        mTabLayout.addTab(mTabLayout.newTab().setText("메인화면"));
-        mTabLayout.addTab(mTabLayout.newTab().setText("용돈 계획장"));
-        mTabLayout.addTab(mTabLayout.newTab().setText("용돈 기록하기"));
-        mTabLayout.addTab(mTabLayout.newTab().setText("게임하기"));
-        mTabLayout.addTab(mTabLayout.newTab().setText("설정"));
+        mTabLayout.addTab(mTabLayout.newTab().setText("자산"));
+        mTabLayout.addTab(mTabLayout.newTab().setText("예산"));
+        mTabLayout.addTab(mTabLayout.newTab().setText("기입장"));
+        mTabLayout.addTab(mTabLayout.newTab().setText("콘텐츠"));
+        // mTabLayout.addTab(mTabLayout.newTab().setText("설정"));
         mTabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
 
         //viewPager 생성
@@ -71,15 +75,13 @@ public class MainActivity extends AppCompatActivity {
         public Fragment getItem(int position) {
             switch (position){
                 case 0:
-                    return new HomeFragment();
+                    return new AssetFragment();
                 case 1 :
-                    return new PlanFragment();
+                    return new BudgetFragment();
                 case 2 :
-                    return new WriteFragment();
+                    return new RecordFragment();
                 case 3 :
-                    return new GameFragment();
-                case 4 :
-                    return new UserFragment();
+                    return new ContentsFragment();
             }
             return null;
         }

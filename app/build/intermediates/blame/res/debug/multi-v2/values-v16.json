@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\jungs\\AndroidStudioProjects\\PocketMoney\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
+            "outputFile": "/Users/KimJung/AndroidStudioProjects/PocketMoney/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\jungs\\.gradle\\caches\\transforms-2\\files-2.1\\817f526dbfb51f6eaf4d1c2a4eefb256\\res\\values-v16\\values-v16.xml",
+                    "source": "/Users/KimJung/.gradle/caches/transforms-2/files-2.1/d8455dc40df9b912492959a6fdc67d1e/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\jungs\\.gradle\\caches\\transforms-2\\files-2.1\\963c98dbdec154648cbd95b64e919ddb\\res\\values-v16\\values-v16.xml",
+                    "source": "/Users/KimJung/.gradle/caches/transforms-2/files-2.1/5e1a2c8d7f097b55a0b0a011b9ccb789/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

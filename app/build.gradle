@@ -19,6 +19,8 @@ android {
     }
 }
 
+
+
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation 'androidx.appcompat:appcompat:1.0.2'
@@ -42,4 +44,5 @@ dependencies {
     implementation 'com.google.code.gson:gson:2.8.5'
 
     implementation 'me.relex:circleindicator:1.2.2'
+
 }

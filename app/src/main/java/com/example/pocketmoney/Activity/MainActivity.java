@@ -1,28 +1,40 @@
 package com.example.pocketmoney.Activity;
 
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.widget.Toast;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
+import androidx.fragment.app.FragmentTransaction;
 import androidx.viewpager.widget.ViewPager;
 
 import com.example.pocketmoney.Fragment.AssetFragment;
 import com.example.pocketmoney.Fragment.BudgetFragment;
 import com.example.pocketmoney.Fragment.ContentsFragment;
+import com.example.pocketmoney.Fragment.RecordFragment;
 import com.example.pocketmoney.Fragment.RecordParentFragment;
 import com.example.pocketmoney.R;
+import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.tabs.TabLayout;
 
 import java.util.concurrent.TimeUnit;
 
 public class MainActivity extends AppCompatActivity {
 
+    private FragmentManager fragmentManager = getSupportFragmentManager();
     private TabLayout mTabLayout;
     private ViewPager mViewPager;
     private long backPressedAt;
+    private BottomNavigationView mBottom;
+    private AssetFragment assetFragment = new AssetFragment();
+    private BudgetFragment budgetFragment = new BudgetFragment();
+    private RecordParentFragment recordParentFragment = new RecordParentFragment();
+    private ContentsFragment contentsFragment = new ContentsFragment();
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,8 +43,40 @@ public class MainActivity extends AppCompatActivity {
 
         mTabLayout =findViewById(R.id.tabLayout);
         mViewPager=findViewById(R.id.viewPager);
+        mBottom = findViewById(R.id.bottomnavigation);
 
-        //탭생성
+        FragmentTransaction transaction = fragmentManager.beginTransaction();
+        transaction.replace(R.id.framelayout, assetFragment).commitAllowingStateLoss();
+
+
+        // bottomNavigationView의 아이템이 선택될 때 호출될 리스너 등록
+        mBottom.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
+            @Override
+            public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+                FragmentTransaction transaction = fragmentManager.beginTransaction();
+                switch (item.getItemId()) {
+                    case R.id.asset: {
+                        transaction.replace(R.id.framelayout, assetFragment).commitAllowingStateLoss();
+                        break;
+                    }
+                    case R.id.budget: {
+                        transaction.replace(R.id.framelayout, budgetFragment).commitAllowingStateLoss();
+                        break;
+                    }
+                    case R.id.record: {
+                        transaction.replace(R.id.framelayout, recordParentFragment).commitAllowingStateLoss();
+                        break;
+                    }
+                    case R.id.contents: {
+                        transaction.replace(R.id.framelayout, contentsFragment).commitAllowingStateLoss();
+                        break;
+                    }
+                }
+                return true;
+            }
+        });
+
+        /*//탭생성
         mTabLayout.addTab(mTabLayout.newTab().setText("자산"));
         mTabLayout.addTab(mTabLayout.newTab().setText("예산"));
         mTabLayout.addTab(mTabLayout.newTab().setText("기입장"));
@@ -55,7 +99,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onTabReselected(TabLayout.Tab tab) {
             }
-        });
+        });*/
     }//onCreat 종료
 
     class ViewPagerAdapter extends FragmentPagerAdapter {

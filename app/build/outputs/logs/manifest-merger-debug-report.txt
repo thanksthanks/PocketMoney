@@ -4,40 +4,66 @@ ADDED from /Users/KimJung/AndroidStudioProjects/PocketMoney/app/src/main/Android
 INJECTED from /Users/KimJung/AndroidStudioProjects/PocketMoney/app/src/main/AndroidManifest.xml:2:1-32:12
 INJECTED from /Users/KimJung/AndroidStudioProjects/PocketMoney/app/src/main/AndroidManifest.xml:2:1-32:12
 INJECTED from /Users/KimJung/AndroidStudioProjects/PocketMoney/app/src/main/AndroidManifest.xml:2:1-32:12
-MERGED from [com.google.android.material:material:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/046bf15a8d1150ba8d8c0b95f0921b00/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.appcompat:appcompat:1.0.2] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/d8455dc40df9b912492959a6fdc67d1e/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/b0768c5b08ab642983c0f7e3791e1775/AndroidManifest.xml:2:1-11:12
-MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/be8c0f8ede453d057b946128283639c4/AndroidManifest.xml:17:1-22:12
-MERGED from [me.relex:circleindicator:1.2.2] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/f4c14c0654aa2fb3d9399b146f6e4594/AndroidManifest.xml:2:1-12:12
-MERGED from [androidx.fragment:fragment:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/01ea1aee15d5d11797abc346126e8d94/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/bc1f71c5b7987fbea02c241a447d04c0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/5f9134b20ef2142789a48c50772ef8db/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/062b21cd36fd1e97669e913e6f5b6950/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/88c70974dd8ecec8f8592bcb094857bc/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/a6132a087b7de9412c7cc9db439940b2/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.media:media:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/0e87453772be9478513ee0e00284d3de/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.transition:transition:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/3bcb3dd42c609f4b7c86ea7bd2558936/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.loader:loader:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/45174d8ed89d2ab15b0e280eb80cfad3/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/68265d38f993c4a554a86ae202ad2461/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/55d67b0daf8202dffd38d01e0cd305f9/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/81775e874ca45cc1e1403f2755215cdb/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/297a2fd9ff0668e653516ab3cd517b29/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.customview:customview:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/dad68f1ca31e48e1a104ce9f158f49b1/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/3817e7b8302bc37da92e7e761ec37d3a/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/9b24f787b29307743dba5d4f17aafe64/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.core:core:1.0.1] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/5e1a2c8d7f097b55a0b0a011b9ccb789/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/880576c2a51f86ae6b7ab0e137de5fcc/AndroidManifest.xml:17:1-25:12
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/cc49b9f48b206c67c91c3ae38bf67d33/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.cardview:cardview:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/0fb4f56c59e3a26382bb364fe526cd7b/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/4598fd92b10ffd41e65ef7b7eff63fd2/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/5d5bc645efe7d4e2eae947f11358bf9b/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/44ae61f970aa694b832bf974cd8aca62/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.print:print:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/79056b66565846a259af7afe85bac2f9/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/87adcd2dc4d42b8880155268ffac9cdf/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/b828c086b1f8979f3f64530d9560f675/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/de868675f98381473554e0a27ee0ea50/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/947a6e4a4f9a476f6a4c03c70fddd711/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/53bbdc630fa4265613e628c449ac1ece/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.material:material:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/78e9b60733ab0ecc9ff3e64b3b17b68b/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.0.2] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/6e36549e891b876f4ca096ff4c26e63d/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/2e1463fa96f50525a68a0bb6ef302b1d/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/eb323aca6ee414c0faf3a279fe74c500/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-core:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/b1648e9e411262d0a90d850d5245001b/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-auth:18.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/3c37d3d596bfad16c25c9b32f6ee2e57/AndroidManifest.xml:17:1-42:12
+MERGED from [com.google.android.gms:play-services-auth:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/003e9c1e282624f88cb9d3502805d2e1/AndroidManifest.xml:17:1-39:12
+MERGED from [com.google.firebase:firebase-storage:18.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/4827f7041303d7d024ed0e88c6b3e8c4/AndroidManifest.xml:15:1-37:12
+MERGED from [com.google.firebase:firebase-database:18.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/3bc352ea061dc0f05958b09a1c25b66b/AndroidManifest.xml:15:1-36:12
+MERGED from [me.relex:circleindicator:1.2.2] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/ddb2217a5fbef03d0c79600caedafa52/AndroidManifest.xml:2:1-12:12
+MERGED from [com.google.android.gms:play-services-flags:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/d6e2cfe1940f53ffa6a567a5ff30c9cd/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/a9f9a3184c226c3b0e239cb7a57a304d/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/55be7219ea886e36705adf47f636e5b7/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/3367e642e695df94b3e1f4872b2f2acc/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-analytics:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/5fc9b14e98b6836e0786418485f0ff46/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/1195de64b9bc02b88b3c2c8a0aafcccd/AndroidManifest.xml:17:1-36:12
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/61ce4275bfb61ac134c944e29b0d7802/AndroidManifest.xml:17:1-47:12
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/ad84514ebc13aef881c75f1eb3a57aac/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/8fae0ca919ccbef59da3e03f6cf12fa3/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.firebase:firebase-common:18.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/86ea69e58a30f80e8d98c4aa7dbf9b8d/AndroidManifest.xml:2:1-19:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/8d18cb2d46ef043a35703a5b78de8a33/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/a6829d451e312fee40922b686e3bbfce/AndroidManifest.xml:17:1-55:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/e5bafa286d7a889972bd587b6d7ffdd9/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/86e57e956329ca153b2a6ba0dc466550/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/f8dcbcf5bdd84ce3234548a648aaa597/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-measurement-base:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/2f24202983ceba2fa5e049dd02250387/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/584f99ff2c2098290d80f909c22c1b15/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/7a15827e9cb367f8886204773c798af0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/31fd0ffb4d3f46c6d7926da99188e0b9/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/1016595141629516f7760989be3ea8ea/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/a35b70c6a07b52e60294b30f1ce5ae4d/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/d6eaf3b8855743982fef387bb349c0f0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/822ef00f4c15e6f748467839d4467963/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/43808798bee2543ca29df340b2558a66/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/dd8fc28ac1047f4dacffbdc9597e4dcb/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/f63557d1a551e402e56f20a64f65d64e/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/b44e4c161eb78dd99daf39377fddb439/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/5c87e16dbfd57f232d9d6d9ae61d92bc/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/4a4d31e04191ba418ae0f3a53328e5ec/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/2b0aca0297c01d0c915a5d53792f850a/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/f35dfdde18f4218d7c9a3d854da73a9f/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/03092bdd128570c1dc870241a8ea3b3f/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/4b2d0cbe143e4132fa552bac1a0d65e4/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/9071a9c7f86cfc9be8c71559f069ac04/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/e99779c19973811f16f260e62ca953f4/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/933502375de65814481e0e2798a3f55e/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.0.1] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/65fda1b68f0c735a7cc1e2da67ced0c9/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/c5076376860bf0a7c3622bdfd18d2dc3/AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/65819ff9d7bb8f62d277567b8384aecf/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/034b5259a0eb3af3357d3184773787bc/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/0bfc4cba7bfee5d96a6666a75707c7bf/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/b96c5a352dba4d311489dc44b1ff3d2d/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/277a6e1aef17ed7d09e1b932c99724ff/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/dfed399f332cac59b5f68ebb38cfdab7/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/01733f1ea9efb36ee040f7acd823380a/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/b86747e78dfa5e5ede9bce9e77fad70e/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/65704bbefcfb3ad4840ee45a7418c168/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/f167e60cdefbb08b87e010e685a94f02/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/b482a9d98338114e3e1fe176bc15bb00/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-database-collection:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/1ff9b1fc1dfe0a3f58536043dd3f08ea/AndroidManifest.xml:2:1-7:12
 INJECTED from /Users/KimJung/AndroidStudioProjects/PocketMoney/app/src/main/AndroidManifest.xml:2:1-32:12
 INJECTED from /Users/KimJung/AndroidStudioProjects/PocketMoney/app/src/main/AndroidManifest.xml:2:1-32:12
 INJECTED from /Users/KimJung/AndroidStudioProjects/PocketMoney/app/src/main/AndroidManifest.xml:2:1-32:12
@@ -57,20 +83,78 @@ INJECTED from /Users/KimJung/AndroidStudioProjects/PocketMoney/app/src/main/Andr
 		ADDED from /Users/KimJung/AndroidStudioProjects/PocketMoney/app/src/main/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
 ADDED from /Users/KimJung/AndroidStudioProjects/PocketMoney/app/src/main/AndroidManifest.xml:5:5-66
+MERGED from [com.google.firebase:firebase-storage:18.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/4827f7041303d7d024ed0e88c6b3e8c4/AndroidManifest.xml:27:5-67
+MERGED from [com.google.firebase:firebase-storage:18.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/4827f7041303d7d024ed0e88c6b3e8c4/AndroidManifest.xml:27:5-67
+MERGED from [com.google.firebase:firebase-database:18.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/3bc352ea061dc0f05958b09a1c25b66b/AndroidManifest.xml:26:5-67
+MERGED from [com.google.firebase:firebase-database:18.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/3bc352ea061dc0f05958b09a1c25b66b/AndroidManifest.xml:26:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/1195de64b9bc02b88b3c2c8a0aafcccd/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/1195de64b9bc02b88b3c2c8a0aafcccd/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/61ce4275bfb61ac134c944e29b0d7802/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/61ce4275bfb61ac134c944e29b0d7802/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/a6829d451e312fee40922b686e3bbfce/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/a6829d451e312fee40922b686e3bbfce/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/86e57e956329ca153b2a6ba0dc466550/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/86e57e956329ca153b2a6ba0dc466550/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/f8dcbcf5bdd84ce3234548a648aaa597/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/f8dcbcf5bdd84ce3234548a648aaa597/AndroidManifest.xml:23:5-67
 	android:name
 		ADDED from /Users/KimJung/AndroidStudioProjects/PocketMoney/app/src/main/AndroidManifest.xml:5:22-64
 application
 ADDED from /Users/KimJung/AndroidStudioProjects/PocketMoney/app/src/main/AndroidManifest.xml:7:5-30:19
-MERGED from [com.google.android.material:material:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/046bf15a8d1150ba8d8c0b95f0921b00/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.material:material:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/046bf15a8d1150ba8d8c0b95f0921b00/AndroidManifest.xml:22:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/b0768c5b08ab642983c0f7e3791e1775/AndroidManifest.xml:9:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/b0768c5b08ab642983c0f7e3791e1775/AndroidManifest.xml:9:5-20
-MERGED from [androidx.core:core:1.0.1] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/5e1a2c8d7f097b55a0b0a011b9ccb789/AndroidManifest.xml:22:5-89
-MERGED from [androidx.core:core:1.0.1] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/5e1a2c8d7f097b55a0b0a011b9ccb789/AndroidManifest.xml:22:5-89
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/880576c2a51f86ae6b7ab0e137de5fcc/AndroidManifest.xml:22:5-23:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/880576c2a51f86ae6b7ab0e137de5fcc/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.material:material:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/78e9b60733ab0ecc9ff3e64b3b17b68b/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/78e9b60733ab0ecc9ff3e64b3b17b68b/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/2e1463fa96f50525a68a0bb6ef302b1d/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/2e1463fa96f50525a68a0bb6ef302b1d/AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-core:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/b1648e9e411262d0a90d850d5245001b/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-core:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/b1648e9e411262d0a90d850d5245001b/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-auth:18.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/3c37d3d596bfad16c25c9b32f6ee2e57/AndroidManifest.xml:23:5-40:19
+MERGED from [com.google.firebase:firebase-auth:18.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/3c37d3d596bfad16c25c9b32f6ee2e57/AndroidManifest.xml:23:5-40:19
+MERGED from [com.google.android.gms:play-services-auth:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/003e9c1e282624f88cb9d3502805d2e1/AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.android.gms:play-services-auth:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/003e9c1e282624f88cb9d3502805d2e1/AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.firebase:firebase-storage:18.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/4827f7041303d7d024ed0e88c6b3e8c4/AndroidManifest.xml:29:5-35:19
+MERGED from [com.google.firebase:firebase-storage:18.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/4827f7041303d7d024ed0e88c6b3e8c4/AndroidManifest.xml:29:5-35:19
+MERGED from [com.google.firebase:firebase-database:18.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/3bc352ea061dc0f05958b09a1c25b66b/AndroidManifest.xml:28:5-34:19
+MERGED from [com.google.firebase:firebase-database:18.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/3bc352ea061dc0f05958b09a1c25b66b/AndroidManifest.xml:28:5-34:19
+MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/a9f9a3184c226c3b0e239cb7a57a304d/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/a9f9a3184c226c3b0e239cb7a57a304d/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-analytics:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/5fc9b14e98b6836e0786418485f0ff46/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/5fc9b14e98b6836e0786418485f0ff46/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/1195de64b9bc02b88b3c2c8a0aafcccd/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/1195de64b9bc02b88b3c2c8a0aafcccd/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/61ce4275bfb61ac134c944e29b0d7802/AndroidManifest.xml:28:5-45:19
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/61ce4275bfb61ac134c944e29b0d7802/AndroidManifest.xml:28:5-45:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/ad84514ebc13aef881c75f1eb3a57aac/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/ad84514ebc13aef881c75f1eb3a57aac/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/8fae0ca919ccbef59da3e03f6cf12fa3/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/8fae0ca919ccbef59da3e03f6cf12fa3/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.firebase:firebase-common:18.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/86ea69e58a30f80e8d98c4aa7dbf9b8d/AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.firebase:firebase-common:18.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/86ea69e58a30f80e8d98c4aa7dbf9b8d/AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/8d18cb2d46ef043a35703a5b78de8a33/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/8d18cb2d46ef043a35703a5b78de8a33/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/a6829d451e312fee40922b686e3bbfce/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/a6829d451e312fee40922b686e3bbfce/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/e5bafa286d7a889972bd587b6d7ffdd9/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/e5bafa286d7a889972bd587b6d7ffdd9/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/86e57e956329ca153b2a6ba0dc466550/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/86e57e956329ca153b2a6ba0dc466550/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/f8dcbcf5bdd84ce3234548a648aaa597/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/f8dcbcf5bdd84ce3234548a648aaa597/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-base:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/2f24202983ceba2fa5e049dd02250387/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/2f24202983ceba2fa5e049dd02250387/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/584f99ff2c2098290d80f909c22c1b15/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/584f99ff2c2098290d80f909c22c1b15/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/7a15827e9cb367f8886204773c798af0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/7a15827e9cb367f8886204773c798af0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/31fd0ffb4d3f46c6d7926da99188e0b9/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/31fd0ffb4d3f46c6d7926da99188e0b9/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/1016595141629516f7760989be3ea8ea/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/1016595141629516f7760989be3ea8ea/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.0.1] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/65fda1b68f0c735a7cc1e2da67ced0c9/AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.0.1] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/65fda1b68f0c735a7cc1e2da67ced0c9/AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/c5076376860bf0a7c3622bdfd18d2dc3/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/c5076376860bf0a7c3622bdfd18d2dc3/AndroidManifest.xml:22:5-23:19
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.0.1] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/5e1a2c8d7f097b55a0b0a011b9ccb789/AndroidManifest.xml:22:18-86
+		ADDED from [androidx.core:core:1.0.1] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/65fda1b68f0c735a7cc1e2da67ced0c9/AndroidManifest.xml:22:18-86
 	android:supportsRtl
 		ADDED from /Users/KimJung/AndroidStudioProjects/PocketMoney/app/src/main/AndroidManifest.xml:12:9-35
 	android:label
@@ -137,74 +221,126 @@ uses-sdk
 INJECTED from /Users/KimJung/AndroidStudioProjects/PocketMoney/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/KimJung/AndroidStudioProjects/PocketMoney/app/src/main/AndroidManifest.xml
 INJECTED from /Users/KimJung/AndroidStudioProjects/PocketMoney/app/src/main/AndroidManifest.xml
-MERGED from [com.google.android.material:material:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/046bf15a8d1150ba8d8c0b95f0921b00/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.material:material:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/046bf15a8d1150ba8d8c0b95f0921b00/AndroidManifest.xml:20:5-44
-MERGED from [androidx.appcompat:appcompat:1.0.2] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/d8455dc40df9b912492959a6fdc67d1e/AndroidManifest.xml:20:5-44
-MERGED from [androidx.appcompat:appcompat:1.0.2] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/d8455dc40df9b912492959a6fdc67d1e/AndroidManifest.xml:20:5-44
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/b0768c5b08ab642983c0f7e3791e1775/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/b0768c5b08ab642983c0f7e3791e1775/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/be8c0f8ede453d057b946128283639c4/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/be8c0f8ede453d057b946128283639c4/AndroidManifest.xml:20:5-44
-MERGED from [me.relex:circleindicator:1.2.2] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/f4c14c0654aa2fb3d9399b146f6e4594/AndroidManifest.xml:8:5-10:41
-MERGED from [me.relex:circleindicator:1.2.2] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/f4c14c0654aa2fb3d9399b146f6e4594/AndroidManifest.xml:8:5-10:41
-MERGED from [androidx.fragment:fragment:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/01ea1aee15d5d11797abc346126e8d94/AndroidManifest.xml:20:5-44
-MERGED from [androidx.fragment:fragment:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/01ea1aee15d5d11797abc346126e8d94/AndroidManifest.xml:20:5-44
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/bc1f71c5b7987fbea02c241a447d04c0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/bc1f71c5b7987fbea02c241a447d04c0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/5f9134b20ef2142789a48c50772ef8db/AndroidManifest.xml:20:5-44
-MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/5f9134b20ef2142789a48c50772ef8db/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/062b21cd36fd1e97669e913e6f5b6950/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/062b21cd36fd1e97669e913e6f5b6950/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/88c70974dd8ecec8f8592bcb094857bc/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/88c70974dd8ecec8f8592bcb094857bc/AndroidManifest.xml:20:5-44
-MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/a6132a087b7de9412c7cc9db439940b2/AndroidManifest.xml:20:5-44
-MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/a6132a087b7de9412c7cc9db439940b2/AndroidManifest.xml:20:5-44
-MERGED from [androidx.media:media:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/0e87453772be9478513ee0e00284d3de/AndroidManifest.xml:20:5-44
-MERGED from [androidx.media:media:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/0e87453772be9478513ee0e00284d3de/AndroidManifest.xml:20:5-44
-MERGED from [androidx.transition:transition:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/3bcb3dd42c609f4b7c86ea7bd2558936/AndroidManifest.xml:20:5-44
-MERGED from [androidx.transition:transition:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/3bcb3dd42c609f4b7c86ea7bd2558936/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/45174d8ed89d2ab15b0e280eb80cfad3/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/45174d8ed89d2ab15b0e280eb80cfad3/AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/68265d38f993c4a554a86ae202ad2461/AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/68265d38f993c4a554a86ae202ad2461/AndroidManifest.xml:20:5-44
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/55d67b0daf8202dffd38d01e0cd305f9/AndroidManifest.xml:20:5-44
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/55d67b0daf8202dffd38d01e0cd305f9/AndroidManifest.xml:20:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/81775e874ca45cc1e1403f2755215cdb/AndroidManifest.xml:20:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/81775e874ca45cc1e1403f2755215cdb/AndroidManifest.xml:20:5-44
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/297a2fd9ff0668e653516ab3cd517b29/AndroidManifest.xml:20:5-44
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/297a2fd9ff0668e653516ab3cd517b29/AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/dad68f1ca31e48e1a104ce9f158f49b1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/dad68f1ca31e48e1a104ce9f158f49b1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/3817e7b8302bc37da92e7e761ec37d3a/AndroidManifest.xml:20:5-44
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/3817e7b8302bc37da92e7e761ec37d3a/AndroidManifest.xml:20:5-44
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/9b24f787b29307743dba5d4f17aafe64/AndroidManifest.xml:20:5-44
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/9b24f787b29307743dba5d4f17aafe64/AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.0.1] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/5e1a2c8d7f097b55a0b0a011b9ccb789/AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.0.1] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/5e1a2c8d7f097b55a0b0a011b9ccb789/AndroidManifest.xml:20:5-44
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/880576c2a51f86ae6b7ab0e137de5fcc/AndroidManifest.xml:20:5-44
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/880576c2a51f86ae6b7ab0e137de5fcc/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/cc49b9f48b206c67c91c3ae38bf67d33/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/cc49b9f48b206c67c91c3ae38bf67d33/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cardview:cardview:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/0fb4f56c59e3a26382bb364fe526cd7b/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cardview:cardview:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/0fb4f56c59e3a26382bb364fe526cd7b/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/4598fd92b10ffd41e65ef7b7eff63fd2/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/4598fd92b10ffd41e65ef7b7eff63fd2/AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/5d5bc645efe7d4e2eae947f11358bf9b/AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/5d5bc645efe7d4e2eae947f11358bf9b/AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/44ae61f970aa694b832bf974cd8aca62/AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/44ae61f970aa694b832bf974cd8aca62/AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/79056b66565846a259af7afe85bac2f9/AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/79056b66565846a259af7afe85bac2f9/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/87adcd2dc4d42b8880155268ffac9cdf/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/87adcd2dc4d42b8880155268ffac9cdf/AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/b828c086b1f8979f3f64530d9560f675/AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/b828c086b1f8979f3f64530d9560f675/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/de868675f98381473554e0a27ee0ea50/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/de868675f98381473554e0a27ee0ea50/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/947a6e4a4f9a476f6a4c03c70fddd711/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/947a6e4a4f9a476f6a4c03c70fddd711/AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/53bbdc630fa4265613e628c449ac1ece/AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/53bbdc630fa4265613e628c449ac1ece/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/78e9b60733ab0ecc9ff3e64b3b17b68b/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/78e9b60733ab0ecc9ff3e64b3b17b68b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.2] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/6e36549e891b876f4ca096ff4c26e63d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.2] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/6e36549e891b876f4ca096ff4c26e63d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/2e1463fa96f50525a68a0bb6ef302b1d/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/2e1463fa96f50525a68a0bb6ef302b1d/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/eb323aca6ee414c0faf3a279fe74c500/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/eb323aca6ee414c0faf3a279fe74c500/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-core:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/b1648e9e411262d0a90d850d5245001b/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/b1648e9e411262d0a90d850d5245001b/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth:18.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/3c37d3d596bfad16c25c9b32f6ee2e57/AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-auth:18.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/3c37d3d596bfad16c25c9b32f6ee2e57/AndroidManifest.xml:21:5-44
+MERGED from [com.google.android.gms:play-services-auth:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/003e9c1e282624f88cb9d3502805d2e1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/003e9c1e282624f88cb9d3502805d2e1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-storage:18.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/4827f7041303d7d024ed0e88c6b3e8c4/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-storage:18.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/4827f7041303d7d024ed0e88c6b3e8c4/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-database:18.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/3bc352ea061dc0f05958b09a1c25b66b/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-database:18.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/3bc352ea061dc0f05958b09a1c25b66b/AndroidManifest.xml:19:5-21:41
+MERGED from [me.relex:circleindicator:1.2.2] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/ddb2217a5fbef03d0c79600caedafa52/AndroidManifest.xml:8:5-10:41
+MERGED from [me.relex:circleindicator:1.2.2] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/ddb2217a5fbef03d0c79600caedafa52/AndroidManifest.xml:8:5-10:41
+MERGED from [com.google.android.gms:play-services-flags:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/d6e2cfe1940f53ffa6a567a5ff30c9cd/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/d6e2cfe1940f53ffa6a567a5ff30c9cd/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/a9f9a3184c226c3b0e239cb7a57a304d/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/a9f9a3184c226c3b0e239cb7a57a304d/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/55be7219ea886e36705adf47f636e5b7/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/55be7219ea886e36705adf47f636e5b7/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/3367e642e695df94b3e1f4872b2f2acc/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/3367e642e695df94b3e1f4872b2f2acc/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/5fc9b14e98b6836e0786418485f0ff46/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/5fc9b14e98b6836e0786418485f0ff46/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/1195de64b9bc02b88b3c2c8a0aafcccd/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/1195de64b9bc02b88b3c2c8a0aafcccd/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/61ce4275bfb61ac134c944e29b0d7802/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/61ce4275bfb61ac134c944e29b0d7802/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/ad84514ebc13aef881c75f1eb3a57aac/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/ad84514ebc13aef881c75f1eb3a57aac/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/8fae0ca919ccbef59da3e03f6cf12fa3/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/8fae0ca919ccbef59da3e03f6cf12fa3/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:18.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/86ea69e58a30f80e8d98c4aa7dbf9b8d/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common:18.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/86ea69e58a30f80e8d98c4aa7dbf9b8d/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/8d18cb2d46ef043a35703a5b78de8a33/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/8d18cb2d46ef043a35703a5b78de8a33/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/a6829d451e312fee40922b686e3bbfce/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/a6829d451e312fee40922b686e3bbfce/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/e5bafa286d7a889972bd587b6d7ffdd9/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/e5bafa286d7a889972bd587b6d7ffdd9/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/86e57e956329ca153b2a6ba0dc466550/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/86e57e956329ca153b2a6ba0dc466550/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/f8dcbcf5bdd84ce3234548a648aaa597/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/f8dcbcf5bdd84ce3234548a648aaa597/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/2f24202983ceba2fa5e049dd02250387/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/2f24202983ceba2fa5e049dd02250387/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/584f99ff2c2098290d80f909c22c1b15/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/584f99ff2c2098290d80f909c22c1b15/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/7a15827e9cb367f8886204773c798af0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/7a15827e9cb367f8886204773c798af0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/31fd0ffb4d3f46c6d7926da99188e0b9/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/31fd0ffb4d3f46c6d7926da99188e0b9/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/1016595141629516f7760989be3ea8ea/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/1016595141629516f7760989be3ea8ea/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/a35b70c6a07b52e60294b30f1ce5ae4d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/a35b70c6a07b52e60294b30f1ce5ae4d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/d6eaf3b8855743982fef387bb349c0f0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/d6eaf3b8855743982fef387bb349c0f0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/822ef00f4c15e6f748467839d4467963/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/822ef00f4c15e6f748467839d4467963/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/43808798bee2543ca29df340b2558a66/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/43808798bee2543ca29df340b2558a66/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/dd8fc28ac1047f4dacffbdc9597e4dcb/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/dd8fc28ac1047f4dacffbdc9597e4dcb/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/f63557d1a551e402e56f20a64f65d64e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/f63557d1a551e402e56f20a64f65d64e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/b44e4c161eb78dd99daf39377fddb439/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/b44e4c161eb78dd99daf39377fddb439/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/5c87e16dbfd57f232d9d6d9ae61d92bc/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/5c87e16dbfd57f232d9d6d9ae61d92bc/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/4a4d31e04191ba418ae0f3a53328e5ec/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/4a4d31e04191ba418ae0f3a53328e5ec/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/2b0aca0297c01d0c915a5d53792f850a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/2b0aca0297c01d0c915a5d53792f850a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/f35dfdde18f4218d7c9a3d854da73a9f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/f35dfdde18f4218d7c9a3d854da73a9f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/03092bdd128570c1dc870241a8ea3b3f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/03092bdd128570c1dc870241a8ea3b3f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/4b2d0cbe143e4132fa552bac1a0d65e4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/4b2d0cbe143e4132fa552bac1a0d65e4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/9071a9c7f86cfc9be8c71559f069ac04/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/9071a9c7f86cfc9be8c71559f069ac04/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/e99779c19973811f16f260e62ca953f4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/e99779c19973811f16f260e62ca953f4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/933502375de65814481e0e2798a3f55e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/933502375de65814481e0e2798a3f55e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.1] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/65fda1b68f0c735a7cc1e2da67ced0c9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.1] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/65fda1b68f0c735a7cc1e2da67ced0c9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/c5076376860bf0a7c3622bdfd18d2dc3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/c5076376860bf0a7c3622bdfd18d2dc3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/65819ff9d7bb8f62d277567b8384aecf/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/65819ff9d7bb8f62d277567b8384aecf/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/034b5259a0eb3af3357d3184773787bc/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/034b5259a0eb3af3357d3184773787bc/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/0bfc4cba7bfee5d96a6666a75707c7bf/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/0bfc4cba7bfee5d96a6666a75707c7bf/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/b96c5a352dba4d311489dc44b1ff3d2d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/b96c5a352dba4d311489dc44b1ff3d2d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/277a6e1aef17ed7d09e1b932c99724ff/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/277a6e1aef17ed7d09e1b932c99724ff/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/dfed399f332cac59b5f68ebb38cfdab7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/dfed399f332cac59b5f68ebb38cfdab7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/01733f1ea9efb36ee040f7acd823380a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/01733f1ea9efb36ee040f7acd823380a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/b86747e78dfa5e5ede9bce9e77fad70e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/b86747e78dfa5e5ede9bce9e77fad70e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/65704bbefcfb3ad4840ee45a7418c168/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/65704bbefcfb3ad4840ee45a7418c168/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/f167e60cdefbb08b87e010e685a94f02/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/f167e60cdefbb08b87e010e685a94f02/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/b482a9d98338114e3e1fe176bc15bb00/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/b482a9d98338114e3e1fe176bc15bb00/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database-collection:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/1ff9b1fc1dfe0a3f58536043dd3f08ea/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-database-collection:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/1ff9b1fc1dfe0a3f58536043dd3f08ea/AndroidManifest.xml:5:5-44
 INJECTED from /Users/KimJung/AndroidStudioProjects/PocketMoney/app/src/main/AndroidManifest.xml
 INJECTED from /Users/KimJung/AndroidStudioProjects/PocketMoney/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
@@ -215,3 +351,205 @@ INJECTED from /Users/KimJung/AndroidStudioProjects/PocketMoney/app/src/main/Andr
 		INJECTED from /Users/KimJung/AndroidStudioProjects/PocketMoney/app/src/main/AndroidManifest.xml
 		ADDED from /Users/KimJung/AndroidStudioProjects/PocketMoney/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/KimJung/AndroidStudioProjects/PocketMoney/app/src/main/AndroidManifest.xml
+activity#com.google.firebase.auth.internal.FederatedSignInActivity
+ADDED from [com.google.firebase:firebase-auth:18.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/3c37d3d596bfad16c25c9b32f6ee2e57/AndroidManifest.xml:24:9-31:50
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:18.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/3c37d3d596bfad16c25c9b32f6ee2e57/AndroidManifest.xml:26:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:18.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/3c37d3d596bfad16c25c9b32f6ee2e57/AndroidManifest.xml:28:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:18.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/3c37d3d596bfad16c25c9b32f6ee2e57/AndroidManifest.xml:27:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-auth:18.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/3c37d3d596bfad16c25c9b32f6ee2e57/AndroidManifest.xml:29:13-102
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:18.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/3c37d3d596bfad16c25c9b32f6ee2e57/AndroidManifest.xml:30:13-72
+	tools:replace
+		ADDED from [com.google.firebase:firebase-auth:18.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/3c37d3d596bfad16c25c9b32f6ee2e57/AndroidManifest.xml:31:13-47
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:18.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/3c37d3d596bfad16c25c9b32f6ee2e57/AndroidManifest.xml:25:13-85
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-auth:18.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/3c37d3d596bfad16c25c9b32f6ee2e57/AndroidManifest.xml:33:9-39:19
+MERGED from [com.google.firebase:firebase-storage:18.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/4827f7041303d7d024ed0e88c6b3e8c4/AndroidManifest.xml:30:9-34:19
+MERGED from [com.google.firebase:firebase-storage:18.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/4827f7041303d7d024ed0e88c6b3e8c4/AndroidManifest.xml:30:9-34:19
+MERGED from [com.google.firebase:firebase-database:18.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/3bc352ea061dc0f05958b09a1c25b66b/AndroidManifest.xml:29:9-33:19
+MERGED from [com.google.firebase:firebase-database:18.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/3bc352ea061dc0f05958b09a1c25b66b/AndroidManifest.xml:29:9-33:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/1195de64b9bc02b88b3c2c8a0aafcccd/AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/1195de64b9bc02b88b3c2c8a0aafcccd/AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/61ce4275bfb61ac134c944e29b0d7802/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/61ce4275bfb61ac134c944e29b0d7802/AndroidManifest.xml:29:9-35:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:18.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/3c37d3d596bfad16c25c9b32f6ee2e57/AndroidManifest.xml:35:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:18.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/3c37d3d596bfad16c25c9b32f6ee2e57/AndroidManifest.xml:34:13-84
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:18.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/3c37d3d596bfad16c25c9b32f6ee2e57/AndroidManifest.xml:36:13-38:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:18.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/3c37d3d596bfad16c25c9b32f6ee2e57/AndroidManifest.xml:38:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:18.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/3c37d3d596bfad16c25c9b32f6ee2e57/AndroidManifest.xml:37:17-109
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/003e9c1e282624f88cb9d3502805d2e1/AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/003e9c1e282624f88cb9d3502805d2e1/AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/003e9c1e282624f88cb9d3502805d2e1/AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/003e9c1e282624f88cb9d3502805d2e1/AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/003e9c1e282624f88cb9d3502805d2e1/AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/003e9c1e282624f88cb9d3502805d2e1/AndroidManifest.xml:33:9-36:110
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/003e9c1e282624f88cb9d3502805d2e1/AndroidManifest.xml:35:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/003e9c1e282624f88cb9d3502805d2e1/AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/003e9c1e282624f88cb9d3502805d2e1/AndroidManifest.xml:34:13-89
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-storage:18.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/4827f7041303d7d024ed0e88c6b3e8c4/AndroidManifest.xml:26:5-79
+MERGED from [com.google.firebase:firebase-database:18.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/3bc352ea061dc0f05958b09a1c25b66b/AndroidManifest.xml:25:5-79
+MERGED from [com.google.firebase:firebase-database:18.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/3bc352ea061dc0f05958b09a1c25b66b/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/1195de64b9bc02b88b3c2c8a0aafcccd/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/1195de64b9bc02b88b3c2c8a0aafcccd/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/61ce4275bfb61ac134c944e29b0d7802/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/61ce4275bfb61ac134c944e29b0d7802/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/a6829d451e312fee40922b686e3bbfce/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/a6829d451e312fee40922b686e3bbfce/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/86e57e956329ca153b2a6ba0dc466550/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/86e57e956329ca153b2a6ba0dc466550/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/f8dcbcf5bdd84ce3234548a648aaa597/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/f8dcbcf5bdd84ce3234548a648aaa597/AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-storage:18.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/4827f7041303d7d024ed0e88c6b3e8c4/AndroidManifest.xml:26:22-76
+meta-data#com.google.firebase.components:com.google.firebase.storage.StorageRegistrar
+ADDED from [com.google.firebase:firebase-storage:18.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/4827f7041303d7d024ed0e88c6b3e8c4/AndroidManifest.xml:31:13-33:85
+	android:value
+		ADDED from [com.google.firebase:firebase-storage:18.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/4827f7041303d7d024ed0e88c6b3e8c4/AndroidManifest.xml:33:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-storage:18.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/4827f7041303d7d024ed0e88c6b3e8c4/AndroidManifest.xml:32:17-107
+meta-data#com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar
+ADDED from [com.google.firebase:firebase-database:18.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/3bc352ea061dc0f05958b09a1c25b66b/AndroidManifest.xml:30:13-32:85
+	android:value
+		ADDED from [com.google.firebase:firebase-database:18.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/3bc352ea061dc0f05958b09a1c25b66b/AndroidManifest.xml:32:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-database:18.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/3bc352ea061dc0f05958b09a1c25b66b/AndroidManifest.xml:31:17-109
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/1195de64b9bc02b88b3c2c8a0aafcccd/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/61ce4275bfb61ac134c944e29b0d7802/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/61ce4275bfb61ac134c944e29b0d7802/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/a6829d451e312fee40922b686e3bbfce/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/a6829d451e312fee40922b686e3bbfce/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/86e57e956329ca153b2a6ba0dc466550/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/86e57e956329ca153b2a6ba0dc466550/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/f8dcbcf5bdd84ce3234548a648aaa597/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/f8dcbcf5bdd84ce3234548a648aaa597/AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/1195de64b9bc02b88b3c2c8a0aafcccd/AndroidManifest.xml:24:22-65
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/1195de64b9bc02b88b3c2c8a0aafcccd/AndroidManifest.xml:30:13-32:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/1195de64b9bc02b88b3c2c8a0aafcccd/AndroidManifest.xml:32:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/1195de64b9bc02b88b3c2c8a0aafcccd/AndroidManifest.xml:31:17-139
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/61ce4275bfb61ac134c944e29b0d7802/AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/61ce4275bfb61ac134c944e29b0d7802/AndroidManifest.xml:26:22-79
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/61ce4275bfb61ac134c944e29b0d7802/AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/61ce4275bfb61ac134c944e29b0d7802/AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/61ce4275bfb61ac134c944e29b0d7802/AndroidManifest.xml:33:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/61ce4275bfb61ac134c944e29b0d7802/AndroidManifest.xml:37:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/61ce4275bfb61ac134c944e29b0d7802/AndroidManifest.xml:39:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/61ce4275bfb61ac134c944e29b0d7802/AndroidManifest.xml:40:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/61ce4275bfb61ac134c944e29b0d7802/AndroidManifest.xml:38:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/61ce4275bfb61ac134c944e29b0d7802/AndroidManifest.xml:41:13-43:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/61ce4275bfb61ac134c944e29b0d7802/AndroidManifest.xml:42:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/61ce4275bfb61ac134c944e29b0d7802/AndroidManifest.xml:42:25-78
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/8fae0ca919ccbef59da3e03f6cf12fa3/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/8fae0ca919ccbef59da3e03f6cf12fa3/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/8fae0ca919ccbef59da3e03f6cf12fa3/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/8fae0ca919ccbef59da3e03f6cf12fa3/AndroidManifest.xml:24:13-79
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:18.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/86ea69e58a30f80e8d98c4aa7dbf9b8d/AndroidManifest.xml:12:9-16:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:18.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/86ea69e58a30f80e8d98c4aa7dbf9b8d/AndroidManifest.xml:14:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:18.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/86ea69e58a30f80e8d98c4aa7dbf9b8d/AndroidManifest.xml:15:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:18.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/86ea69e58a30f80e8d98c4aa7dbf9b8d/AndroidManifest.xml:16:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:18.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/86ea69e58a30f80e8d98c4aa7dbf9b8d/AndroidManifest.xml:13:13-77
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/a6829d451e312fee40922b686e3bbfce/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/86e57e956329ca153b2a6ba0dc466550/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/86e57e956329ca153b2a6ba0dc466550/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/f8dcbcf5bdd84ce3234548a648aaa597/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/f8dcbcf5bdd84ce3234548a648aaa597/AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/a6829d451e312fee40922b686e3bbfce/AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/a6829d451e312fee40922b686e3bbfce/AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/a6829d451e312fee40922b686e3bbfce/AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/a6829d451e312fee40922b686e3bbfce/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/a6829d451e312fee40922b686e3bbfce/AndroidManifest.xml:30:13-85
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/a6829d451e312fee40922b686e3bbfce/AndroidManifest.xml:34:9-42:20
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/86e57e956329ca153b2a6ba0dc466550/AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/86e57e956329ca153b2a6ba0dc466550/AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/f8dcbcf5bdd84ce3234548a648aaa597/AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/f8dcbcf5bdd84ce3234548a648aaa597/AndroidManifest.xml:29:9-37:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/a6829d451e312fee40922b686e3bbfce/AndroidManifest.xml:36:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/a6829d451e312fee40922b686e3bbfce/AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/a6829d451e312fee40922b686e3bbfce/AndroidManifest.xml:38:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/a6829d451e312fee40922b686e3bbfce/AndroidManifest.xml:35:13-100
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/a6829d451e312fee40922b686e3bbfce/AndroidManifest.xml:39:13-41:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/a6829d451e312fee40922b686e3bbfce/AndroidManifest.xml:40:17-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/a6829d451e312fee40922b686e3bbfce/AndroidManifest.xml:40:25-76
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/a6829d451e312fee40922b686e3bbfce/AndroidManifest.xml:44:9-47:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/a6829d451e312fee40922b686e3bbfce/AndroidManifest.xml:46:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/a6829d451e312fee40922b686e3bbfce/AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/a6829d451e312fee40922b686e3bbfce/AndroidManifest.xml:45:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/a6829d451e312fee40922b686e3bbfce/AndroidManifest.xml:48:9-52:72
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/a6829d451e312fee40922b686e3bbfce/AndroidManifest.xml:50:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/a6829d451e312fee40922b686e3bbfce/AndroidManifest.xml:51:13-37
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/a6829d451e312fee40922b686e3bbfce/AndroidManifest.xml:52:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/a6829d451e312fee40922b686e3bbfce/AndroidManifest.xml:49:13-87
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/1016595141629516f7760989be3ea8ea/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/1016595141629516f7760989be3ea8ea/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/KimJung/.gradle/caches/transforms-2/files-2.1/1016595141629516f7760989be3ea8ea/AndroidManifest.xml:24:13-58

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -9,24 +10,69 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="2"
-        android:text=""/>
+        android:layout_weight="0.5"
+        android:text="쓸 수 있는 돈"
+        android:autoSizeTextType="uniform"/>
 
-    <Button
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1"
-        android:text="예산 입력하기"/>
+        android:layout_weight="2"
+        android:text="100,000"
+        android:autoSizeTextType="uniform"
+        android:gravity="center"/>
 
-    
     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="초기화"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:text="예산입력"/>
+
+    </LinearLayout>
+
+
+    <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="9">
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="right"
+            android:orientation="horizontal">
 
 
-    </LinearLayout>
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/floatingMain"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="bottom"
+                android:layout_margin="20dp"
+                android:src="@drawable/ic_add_black_24dp"
+                android:clickable="true"
+                android:backgroundTint="#009688"
+                app:borderWidth="0dp"
+                app:fabSize="normal"/>
+
+        </LinearLayout>
+
+
+    </FrameLayout>
+
+
+
 
 
 

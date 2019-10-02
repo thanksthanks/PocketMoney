@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/asset"
+        android:enabled="true"
+        android:title="자산"
+        android:icon="@drawable/iconfinder_pawnshop_2_2181280"/>
+    <item
+        android:id="@+id/budget"
+        android:enabled="true"
+        android:title="예산"
+        android:icon="@drawable/budget"/>
+    <item
+        android:id="@+id/record"
+        android:enabled="true"
+        android:title="기입장"
+        android:icon="@drawable/notebook"/>
+    <item
+        android:id="@+id/contents"
+        android:enabled="true"
+        android:title="콘텐츠"
+        android:icon="@drawable/communications"/>
+</menu>

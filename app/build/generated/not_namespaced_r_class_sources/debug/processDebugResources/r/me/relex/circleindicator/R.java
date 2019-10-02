@@ -17,45 +17,45 @@ public final class R {
     public static final class attr {
         private attr() {}
 
-        public static final int ci_animator = 0x7f04007a;
-        public static final int ci_animator_reverse = 0x7f04007b;
-        public static final int ci_drawable = 0x7f04007c;
-        public static final int ci_drawable_unselected = 0x7f04007d;
-        public static final int ci_gravity = 0x7f04007e;
-        public static final int ci_height = 0x7f04007f;
-        public static final int ci_margin = 0x7f040080;
-        public static final int ci_orientation = 0x7f040081;
-        public static final int ci_width = 0x7f040082;
+        public static final int ci_animator = 0x7f04007b;
+        public static final int ci_animator_reverse = 0x7f04007c;
+        public static final int ci_drawable = 0x7f04007d;
+        public static final int ci_drawable_unselected = 0x7f04007e;
+        public static final int ci_gravity = 0x7f04007f;
+        public static final int ci_height = 0x7f040080;
+        public static final int ci_margin = 0x7f040081;
+        public static final int ci_orientation = 0x7f040082;
+        public static final int ci_width = 0x7f040083;
     }
     public static final class drawable {
         private drawable() {}
 
-        public static final int white_radius = 0x7f0800bb;
+        public static final int white_radius = 0x7f0800d6;
     }
     public static final class id {
         private id() {}
 
-        public static final int bottom = 0x7f090027;
-        public static final int center = 0x7f09003d;
-        public static final int center_horizontal = 0x7f09003e;
-        public static final int center_vertical = 0x7f09003f;
-        public static final int clip_horizontal = 0x7f090043;
-        public static final int clip_vertical = 0x7f090044;
-        public static final int end = 0x7f090065;
-        public static final int fill = 0x7f09006c;
-        public static final int fill_horizontal = 0x7f09006d;
-        public static final int fill_vertical = 0x7f09006e;
-        public static final int horizontal = 0x7f090079;
-        public static final int left = 0x7f09008d;
-        public static final int right = 0x7f0900bb;
-        public static final int start = 0x7f0900ec;
-        public static final int top = 0x7f090118;
-        public static final int vertical = 0x7f090131;
+        public static final int bottom = 0x7f09002a;
+        public static final int center = 0x7f090045;
+        public static final int center_horizontal = 0x7f090046;
+        public static final int center_vertical = 0x7f090047;
+        public static final int clip_horizontal = 0x7f09004c;
+        public static final int clip_vertical = 0x7f09004d;
+        public static final int end = 0x7f090070;
+        public static final int fill = 0x7f090077;
+        public static final int fill_horizontal = 0x7f090078;
+        public static final int fill_vertical = 0x7f090079;
+        public static final int horizontal = 0x7f090086;
+        public static final int left = 0x7f09009b;
+        public static final int right = 0x7f0900cb;
+        public static final int start = 0x7f0900fc;
+        public static final int top = 0x7f09012c;
+        public static final int vertical = 0x7f090145;
     }
     public static final class styleable {
         private styleable() {}
 
-        public static final int[] CircleIndicator = { 0x7f04007a, 0x7f04007b, 0x7f04007c, 0x7f04007d, 0x7f04007e, 0x7f04007f, 0x7f040080, 0x7f040081, 0x7f040082 };
+        public static final int[] CircleIndicator = { 0x7f04007b, 0x7f04007c, 0x7f04007d, 0x7f04007e, 0x7f04007f, 0x7f040080, 0x7f040081, 0x7f040082, 0x7f040083 };
         public static final int CircleIndicator_ci_animator = 0;
         public static final int CircleIndicator_ci_animator_reverse = 1;
         public static final int CircleIndicator_ci_drawable = 2;

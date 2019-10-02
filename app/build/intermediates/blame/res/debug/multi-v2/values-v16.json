@@ -4,7 +4,7 @@
             "outputFile": "/Users/KimJung/AndroidStudioProjects/PocketMoney/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "/Users/KimJung/.gradle/caches/transforms-2/files-2.1/d8455dc40df9b912492959a6fdc67d1e/res/values-v16/values-v16.xml",
+                    "source": "/Users/KimJung/.gradle/caches/transforms-2/files-2.1/6e36549e891b876f4ca096ff4c26e63d/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "/Users/KimJung/.gradle/caches/transforms-2/files-2.1/5e1a2c8d7f097b55a0b0a011b9ccb789/res/values-v16/values-v16.xml",
+                    "source": "/Users/KimJung/.gradle/caches/transforms-2/files-2.1/65fda1b68f0c735a7cc1e2da67ced0c9/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

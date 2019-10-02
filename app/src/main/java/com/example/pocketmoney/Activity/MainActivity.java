@@ -1,11 +1,14 @@
 package com.example.pocketmoney.Activity;
 
 import android.os.Bundle;
+import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
+import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
@@ -15,7 +18,6 @@ import androidx.viewpager.widget.ViewPager;
 import com.example.pocketmoney.Fragment.AssetFragment;
 import com.example.pocketmoney.Fragment.BudgetFragment;
 import com.example.pocketmoney.Fragment.ContentsFragment;
-import com.example.pocketmoney.Fragment.RecordFragment;
 import com.example.pocketmoney.Fragment.RecordParentFragment;
 import com.example.pocketmoney.R;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
@@ -36,10 +38,21 @@ public class MainActivity extends AppCompatActivity {
     private ContentsFragment contentsFragment = new ContentsFragment();
 
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        Toolbar toolbar = findViewById(R.id.toolbar); //툴바설정
+        setSupportActionBar(toolbar);
+        ActionBar actionBar = getSupportActionBar();
+        actionBar.setDisplayShowCustomEnabled(true); //커스터마이징 하기 위해 필요
+        actionBar.setDisplayShowTitleEnabled(false); //타이틀 안보이게 하기
+        actionBar.setDisplayHomeAsUpEnabled(true); // 홈버튼 사용
+        actionBar.setHomeAsUpIndicator(R.drawable.ic_menu_white_24dp);
+
+
 
         mTabLayout =findViewById(R.id.tabLayout);
         mViewPager=findViewById(R.id.viewPager);
@@ -100,7 +113,31 @@ public class MainActivity extends AppCompatActivity {
             public void onTabReselected(TabLayout.Tab tab) {
             }
         });*/
-    }//onCreat 종료
+    }//onCreate 종료
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.main_menu, menu); // main_menu.xml 메뉴를 toolbar 메뉴 버튼으로 설정
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        int id = item.getItemId();
+
+        switch(id) {
+            case R.id.home:
+                Toast.makeText(getApplicationContext(), "메뉴 클릭", Toast.LENGTH_SHORT).show();
+                return true;
+            case R.id.menu_account:
+                Toast.makeText(getApplicationContext(), "로그인 메뉴 클릭", Toast.LENGTH_SHORT).show();
+                return true;
+            case R.id.menu_logout:
+                Toast.makeText(getApplicationContext(), "로그아웃 메뉴 클릭", Toast.LENGTH_SHORT).show();
+                return true;
+        }
+        return super.onOptionsItemSelected(item);
+    }
 
     class ViewPagerAdapter extends FragmentPagerAdapter {
         private int tabCount;
@@ -146,5 +183,9 @@ public class MainActivity extends AppCompatActivity {
             }
         }
     }
+
+
+
+
 
 }

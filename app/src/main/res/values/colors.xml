@@ -5,4 +5,8 @@
     <color name="colorAccent">#D81B60</color>
 
     <color name="PantoneCoolGray4C">#C2C4C6</color>
+
+    <drawable name="bg_select">#2196F3</drawable>
+    <drawable name="bg">#00ff0000</drawable>
+
 </resources>

@@ -10,7 +10,6 @@ import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
-import androidx.fragment.app.FragmentTransaction;
 import androidx.viewpager.widget.ViewPager;
 
 import com.example.pocketmoney.R;
@@ -57,7 +56,7 @@ public class RecordParentFragment extends Fragment {
         return view;
     }
 
-    private void setChildFragment(Fragment child) {
+/*    private void setChildFragment(Fragment child) {
         FragmentTransaction childFt = getChildFragmentManager().beginTransaction();
 
         if (!child.isAdded()) {
@@ -65,7 +64,7 @@ public class RecordParentFragment extends Fragment {
             childFt.addToBackStack(null);
             childFt.commit();
         }
-    }
+    }*/
 
 
     class ViewPagerAdapter extends FragmentPagerAdapter {
@@ -80,7 +79,7 @@ public class RecordParentFragment extends Fragment {
         public Fragment getItem(int position) {
             switch (position){
                 case 0:
-                    return new WriteFragment();
+                    return new RecordFragment();
                 case 1 :
                     return new CalendarFragment();
                 case 2 :
